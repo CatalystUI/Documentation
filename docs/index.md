@@ -2,10 +2,8 @@
 _layout: landing
 ---
 
-# This is the **HOMEPAGE**.
+## Welcome to CatalystUI
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-
-## Quick Start Notes:
-
-1. Add images to the *images* folder if the file is referencing an image.
+The documentation is currently a work-in-progress.
+We are actively working on it and will be updating it regularly. In the meantime, you can check out our [GitHub repository](https://github.com/CatalystUI/Documentation) for the latest updates and contributions.
+Thank you for your patience!
