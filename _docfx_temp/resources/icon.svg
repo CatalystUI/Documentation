@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38pt" height="38pt" viewBox="0 0 2800 2800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_1);
+      }
+
+      .cls-1, .cls-2 {
+        opacity: .5;
+      }
+
+      .cls-1, .cls-3 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-2, .cls-8, .cls-9 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-10 {
+        isolation: isolate;
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+        opacity: .44;
+      }
+
+      .cls-9 {
+        opacity: .34;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1149.19" y1="2427.22" x2="1561.28" y2="284.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#52ff8d"/>
+      <stop offset=".11" stop-color="#4ff675"/>
+      <stop offset=".34" stop-color="#4ae74c"/>
+      <stop offset=".51" stop-color="#47de33"/>
+      <stop offset=".62" stop-color="#46db2a"/>
+      <stop offset=".78" stop-color="#44d828"/>
+      <stop offset=".85" stop-color="#3ed125"/>
+      <stop offset=".9" stop-color="#34c51f"/>
+      <stop offset=".94" stop-color="#25b316"/>
+      <stop offset=".97" stop-color="#139d0b"/>
+      <stop offset="1" stop-color="#008600"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <path class="cls-6" d="M687,2423c-44.77-160.56-231.66-656.78-10-1220,195.33-496.3,695.78-767.49,838-867,46.97,93.53,81.75,217.6,70,458-6.44,131.73-76.51,301.99-106,379,59.7-81.19,145.81-181.85,265-280,107.58-88.59,211.46-149.89,296-192,41.73,114.48,91.14,298.84,70,521-64.54,678.26-721.23,1021.48-774,1048-234.78,117.99-465.86,151.35-649,153Z"/>
+    </clipPath>
+    <radialGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" cx="1471.54" cy="1254.17" fx="2223.9" fy="788.61" r="1463.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".07" stop-color="#e5e5e5"/>
+      <stop offset=".26" stop-color="#a0a0a0"/>
+      <stop offset=".44" stop-color="#676767"/>
+      <stop offset=".61" stop-color="#3a3a3a"/>
+      <stop offset=".75" stop-color="#1a1a1a"/>
+      <stop offset=".88" stop-color="#070707"/>
+      <stop offset=".96" stop-color="#000"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="1645.15" y1="2365.78" x2="1908.85" y2="1446.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ba6700"/>
+      <stop offset=".53" stop-color="#f4a000"/>
+      <stop offset=".81" stop-color="#f1b500"/>
+      <stop offset="1" stop-color="#f1be00"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="1800.09" cy="1853.18" fx="2066.13" fy="1712.15" r="650.09" gradientUnits="userSpaceOnUse">
+      <stop offset=".05" stop-color="#fff"/>
+      <stop offset=".3" stop-color="#fcfcfc"/>
+      <stop offset=".42" stop-color="#f4f4f4"/>
+      <stop offset=".52" stop-color="#e7e7e7"/>
+      <stop offset=".6" stop-color="#d4d4d4"/>
+      <stop offset=".68" stop-color="#bbb"/>
+      <stop offset=".75" stop-color="#9d9d9d"/>
+      <stop offset=".81" stop-color="#797979"/>
+      <stop offset=".87" stop-color="#4f4f4f"/>
+      <stop offset=".93" stop-color="#212121"/>
+      <stop offset=".96" stop-color="#000"/>
+    </radialGradient>
+    <clipPath id="clippath-1">
+      <polygon class="cls-6" points="2023.5 1479 1530.5 1479 1284 1905.95 1530.5 2332.9 2023.5 2332.9 2270 1905.95 2023.5 1479"/>
+    </clipPath>
+  </defs>
+  <g class="cls-10">
+    <g id="Layer_1" data-name="Layer 1">
+      <path class="cls-11" d="M687,2423c-44.77-160.56-231.66-656.78-10-1220,195.33-496.3,695.78-767.49,838-867,46.97,93.53,81.75,217.6,70,458-6.44,131.73-76.51,301.99-106,379,59.7-81.19,145.81-181.85,265-280,107.58-88.59,211.46-149.89,296-192,41.73,114.48,91.14,298.84,70,521-64.54,678.26-721.23,1021.48-774,1048-234.78,117.99-465.86,151.35-649,153Z"/>
+      <g class="cls-9">
+        <g class="cls-12">
+          <image class="cls-8" width="3264" height="2448" transform="translate(2464.84 4145.28) rotate(-156.3) scale(1.25 1.65)" xlink:href="plant-leaf-green-86397.jpg"/>
+        </g>
+      </g>
+      <path class="cls-1" d="M687,2423c-44.77-160.56-231.66-656.78-10-1220,195.33-496.3,695.78-767.49,838-867,46.97,93.53,81.75,217.6,70,458-6.44,131.73-76.51,301.99-106,379,59.7-81.19,145.81-181.85,265-280,107.58-88.59,211.46-149.89,296-192,41.73,114.48,91.14,298.84,70,521-64.54,678.26-721.23,1021.48-774,1048-234.78,117.99-465.86,151.35-649,153Z"/>
+      <path class="cls-5" d="M742,2422c-23.09-120.31-54.99-381.82,50-682,130.84-374.1,394.38-576.96,492-645-94.82,121.49-226.32,320.07-314,593-96.52,300.44-98.23,562.16-87,722-21.41,3.17-44.11,4.91-68,7-25.23,2.2-50.28,4.46-73,5Z"/>
+      <polygon class="cls-4" points="2023.5 1479 1530.5 1479 1284 1905.95 1530.5 2332.9 2023.5 2332.9 2270 1905.95 2023.5 1479"/>
+      <polygon class="cls-3" points="2023.5 1479 1530.5 1479 1284 1905.95 1530.5 2332.9 2023.5 2332.9 2270 1905.95 2023.5 1479"/>
+      <g class="cls-2">
+        <g class="cls-7">
+          <image width="1300" height="900" transform="translate(568.92 1568.87) rotate(-12.43) scale(1.57 1.25)" xlink:href="R.jpg"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
