@@ -225,38 +225,6 @@ references:
   fullName.vb: Catalyst.Collections.StaticArrayPool(Of T).Release
   nameWithType: StaticArrayPool<T>.Release
   nameWithType.vb: StaticArrayPool(Of T).Release
-- uid: Catalyst.Collections.StaticArrayPool`1._allocated
-  name: _allocated
-  href: api/Catalyst.Collections.StaticArrayPool-1.html#Catalyst_Collections_StaticArrayPool_1__allocated
-  commentId: F:Catalyst.Collections.StaticArrayPool`1._allocated
-  fullName: Catalyst.Collections.StaticArrayPool<T>._allocated
-  fullName.vb: Catalyst.Collections.StaticArrayPool(Of T)._allocated
-  nameWithType: StaticArrayPool<T>._allocated
-  nameWithType.vb: StaticArrayPool(Of T)._allocated
-- uid: Catalyst.Collections.StaticArrayPool`1._arr
-  name: _arr
-  href: api/Catalyst.Collections.StaticArrayPool-1.html#Catalyst_Collections_StaticArrayPool_1__arr
-  commentId: F:Catalyst.Collections.StaticArrayPool`1._arr
-  fullName: Catalyst.Collections.StaticArrayPool<T>._arr
-  fullName.vb: Catalyst.Collections.StaticArrayPool(Of T)._arr
-  nameWithType: StaticArrayPool<T>._arr
-  nameWithType.vb: StaticArrayPool(Of T)._arr
-- uid: Catalyst.Collections.StaticArrayPool`1._count
-  name: _count
-  href: api/Catalyst.Collections.StaticArrayPool-1.html#Catalyst_Collections_StaticArrayPool_1__count
-  commentId: F:Catalyst.Collections.StaticArrayPool`1._count
-  fullName: Catalyst.Collections.StaticArrayPool<T>._count
-  fullName.vb: Catalyst.Collections.StaticArrayPool(Of T)._count
-  nameWithType: StaticArrayPool<T>._count
-  nameWithType.vb: StaticArrayPool(Of T)._count
-- uid: Catalyst.Collections.StaticArrayPool`1._free
-  name: _free
-  href: api/Catalyst.Collections.StaticArrayPool-1.html#Catalyst_Collections_StaticArrayPool_1__free
-  commentId: F:Catalyst.Collections.StaticArrayPool`1._free
-  fullName: Catalyst.Collections.StaticArrayPool<T>._free
-  fullName.vb: Catalyst.Collections.StaticArrayPool(Of T)._free
-  nameWithType: StaticArrayPool<T>._free
-  nameWithType.vb: StaticArrayPool(Of T)._free
 - uid: Catalyst.Collections.StaticArrayQueue`1
   name: StaticArrayQueue<T>
   href: api/Catalyst.Collections.StaticArrayQueue-1.html
@@ -491,38 +459,6 @@ references:
   fullName.vb: Catalyst.Collections.StaticArrayQueue(Of T).PeekEnqueue
   nameWithType: StaticArrayQueue<T>.PeekEnqueue
   nameWithType.vb: StaticArrayQueue(Of T).PeekEnqueue
-- uid: Catalyst.Collections.StaticArrayQueue`1._arr
-  name: _arr
-  href: api/Catalyst.Collections.StaticArrayQueue-1.html#Catalyst_Collections_StaticArrayQueue_1__arr
-  commentId: F:Catalyst.Collections.StaticArrayQueue`1._arr
-  fullName: Catalyst.Collections.StaticArrayQueue<T>._arr
-  fullName.vb: Catalyst.Collections.StaticArrayQueue(Of T)._arr
-  nameWithType: StaticArrayQueue<T>._arr
-  nameWithType.vb: StaticArrayQueue(Of T)._arr
-- uid: Catalyst.Collections.StaticArrayQueue`1._count
-  name: _count
-  href: api/Catalyst.Collections.StaticArrayQueue-1.html#Catalyst_Collections_StaticArrayQueue_1__count
-  commentId: F:Catalyst.Collections.StaticArrayQueue`1._count
-  fullName: Catalyst.Collections.StaticArrayQueue<T>._count
-  fullName.vb: Catalyst.Collections.StaticArrayQueue(Of T)._count
-  nameWithType: StaticArrayQueue<T>._count
-  nameWithType.vb: StaticArrayQueue(Of T)._count
-- uid: Catalyst.Collections.StaticArrayQueue`1._read
-  name: _read
-  href: api/Catalyst.Collections.StaticArrayQueue-1.html#Catalyst_Collections_StaticArrayQueue_1__read
-  commentId: F:Catalyst.Collections.StaticArrayQueue`1._read
-  fullName: Catalyst.Collections.StaticArrayQueue<T>._read
-  fullName.vb: Catalyst.Collections.StaticArrayQueue(Of T)._read
-  nameWithType: StaticArrayQueue<T>._read
-  nameWithType.vb: StaticArrayQueue(Of T)._read
-- uid: Catalyst.Collections.StaticArrayQueue`1._write
-  name: _write
-  href: api/Catalyst.Collections.StaticArrayQueue-1.html#Catalyst_Collections_StaticArrayQueue_1__write
-  commentId: F:Catalyst.Collections.StaticArrayQueue`1._write
-  fullName: Catalyst.Collections.StaticArrayQueue<T>._write
-  fullName.vb: Catalyst.Collections.StaticArrayQueue(Of T)._write
-  nameWithType: StaticArrayQueue<T>._write
-  nameWithType.vb: StaticArrayQueue(Of T)._write
 - uid: Catalyst.Collections.StaticArrayStack`1
   name: StaticArrayStack<T>
   href: api/Catalyst.Collections.StaticArrayStack-1.html
@@ -757,22 +693,6 @@ references:
   fullName.vb: Catalyst.Collections.StaticArrayStack(Of T).Push
   nameWithType: StaticArrayStack<T>.Push
   nameWithType.vb: StaticArrayStack(Of T).Push
-- uid: Catalyst.Collections.StaticArrayStack`1._arr
-  name: _arr
-  href: api/Catalyst.Collections.StaticArrayStack-1.html#Catalyst_Collections_StaticArrayStack_1__arr
-  commentId: F:Catalyst.Collections.StaticArrayStack`1._arr
-  fullName: Catalyst.Collections.StaticArrayStack<T>._arr
-  fullName.vb: Catalyst.Collections.StaticArrayStack(Of T)._arr
-  nameWithType: StaticArrayStack<T>._arr
-  nameWithType.vb: StaticArrayStack(Of T)._arr
-- uid: Catalyst.Collections.StaticArrayStack`1._count
-  name: _count
-  href: api/Catalyst.Collections.StaticArrayStack-1.html#Catalyst_Collections_StaticArrayStack_1__count
-  commentId: F:Catalyst.Collections.StaticArrayStack`1._count
-  fullName: Catalyst.Collections.StaticArrayStack<T>._count
-  fullName.vb: Catalyst.Collections.StaticArrayStack(Of T)._count
-  nameWithType: StaticArrayStack<T>._count
-  nameWithType.vb: StaticArrayStack(Of T)._count
 - uid: Catalyst.Threading
   name: Catalyst.Threading
   href: api/Catalyst.Threading.html

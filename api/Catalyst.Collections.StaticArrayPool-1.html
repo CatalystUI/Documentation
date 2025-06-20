@@ -103,7 +103,7 @@ allocations after initialization.</p>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StaticArrayPool&lt;T&gt; : IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable where T : struct</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class StaticArrayPool&lt;T&gt; : IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable where T : struct</code></pre>
   </div>
 
 
@@ -147,9 +147,6 @@ allocations after initialization.</p>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
@@ -205,134 +202,6 @@ method should be called with the index of the element to release.
 
 
 
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="Catalyst_Collections_StaticArrayPool_1__allocated" data-uid="Catalyst.Collections.StaticArrayPool`1._allocated">
-  _allocated
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>A stack which holds the indices of allocated elements.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected readonly StaticArrayStack&lt;int&gt; _allocated</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Catalyst.Collections.StaticArrayStack-1.html">StaticArrayStack</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Catalyst_Collections_StaticArrayPool_1__arr" data-uid="Catalyst.Collections.StaticArrayPool`1._arr">
-  _arr
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The array that holds the elements of the pool.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected readonly T[] _arr</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt>T[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Catalyst_Collections_StaticArrayPool_1__count" data-uid="Catalyst.Collections.StaticArrayPool`1._count">
-  _count
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The current number of elements in the pool.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected int _count</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Catalyst_Collections_StaticArrayPool_1__free" data-uid="Catalyst.Collections.StaticArrayPool`1._free">
-  _free
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>A boolean array that indicates which elements in the pool are free.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected readonly bool[] _free</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>[]</dt>
-    <dd></dd>
-  </dl>
 
 
 
