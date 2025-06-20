@@ -62,8 +62,9 @@ jobs:
             run: |
               $env:PATH += ":$HOME/.dotnet/tools"
               docfx docfx.json
-              New-Item -ItemType Directory -Force -Path "$PWD/_docfx_temp"
-              Copy-Item -Path "./_site/*" -Destination "$PWD/_docfx_temp" -Recurse -Force
+              $root = (Resolve-Path "$PWD/../").Path
+              New-Item -ItemType Directory -Force -Path "$root/_docfx_temp"
+              Copy-Item -Path "./_site/*" -Destination "$root/_docfx_temp" -Recurse -Force
           - name: Configure for Git Upload
             shell: pwsh
             run: |
