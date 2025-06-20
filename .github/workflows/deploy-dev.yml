@@ -6,15 +6,34 @@ jobs:
       runs-on: macos-15
       name: Deploy Development Documentation
       steps:
-          - name: Prepare SSH Agent
-            uses: webfactory/ssh-agent@v0.8.0
-            with:
-              ssh-private-key: ${{ secrets.CATALYST_PRIVATE_KEY }}
+          - name: Prepare SSH Keys and Config
+            shell: bash
+            run: |
+              mkdir -p ~/.ssh
+              echo "${{ secrets.CATALYST_PRIVATE_KEY }}" > ~/.ssh/catalyst_private_key
+              chmod 600 ~/.ssh/catalyst_private_key
+              echo "${{ secrets.DOCS_DEPLOY_KEY }}" > ~/.ssh/docs_deploy_key
+              chmod 600 ~/.ssh/docs_deploy_key
+              cat << EOF > ~/.ssh/config
+              Host github.com-CatalystUI-Documentation
+              HostName github.com
+              User git
+              IdentityFile ~/.ssh/docs_deploy_key
+              IdentitiesOnly yes
+              
+              Host github.com-CatalystUI-CatalystUI
+              HostName github.com
+              User git
+              IdentityFile ~/.ssh/catalyst_private_key
+              IdentitiesOnly yes
+              EOF
+              chmod 600 ~/.ssh/config
+              ssh-keyscan github.com >> ~/.ssh/known_hosts
           - name: Checkout
             uses: actions/checkout@v4
           - name: Fix submodule URL for SSH
             run: |
-              git submodule set-url src git@github.com:CatalystUI/CatalystUI.git
+              git submodule set-url src github.com-CatalystUI-CatalystUI:CatalystUI/CatalystUI.git
           - name: Initialize Submodules
             run: |
               git submodule update --init --recursive
@@ -60,27 +79,31 @@ jobs:
             shell: pwsh
             working-directory: ./docs
             run: |
+              $root = "${{ github.workspace }}"
               $env:PATH += ":$HOME/.dotnet/tools"
               docfx docfx.json
-              New-Item -ItemType Directory -Force -Path "${{ github.workspace }}/_docfx_temp"
-              Copy-Item -Path "./_site/*" -Destination "${{ github.workspace }}/_docfx_temp" -Recurse -Force
+              New-Item -ItemType Directory -Force -Path "$root/_docfx_temp"
+              Copy-Item -Path "./_site/*" -Destination "$root/_docfx_temp" -Recurse -Force
+          - name: Fix origin URL for SSH
+            run: |
+              git remote set-url origin github.com-CatalystUI-Documentation:CatalystUI/Documentation.git
           - name: Configure for Git Upload
             shell: pwsh
             run: |
               git config --global user.email "github-actions[bot]@users.noreply.github.com"
               git config --global user.name "github-actions[bot]"
               git fetch origin docs-dev || true
+              git reset --hard HEAD
               git switch docs-dev || git checkout --orphan docs-dev
           - name: Clone Documentation
             shell: pwsh
             run: |
+              $root = "${{ github.workspace }}"
               Get-ChildItem -Path $root -Exclude '.git', '_docfx_temp', 'CNAME' | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-              Copy-Item -Path "${{ github.workspace }}/_docfx_temp/*" -Destination $root -Recurse -Force
+              Copy-Item -Path "$root/_docfx_temp/*" -Destination $root -Recurse -Force
           - name: Commit and Push Documentation
             shell: pwsh
             run: |
               git add .
               git commit -m "Update development docs from ${{ github.sha }}" || echo "No changes to commit"
               git push origin docs-dev
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
