@@ -31,6 +31,8 @@ jobs:
               ssh-keyscan github.com >> ~/.ssh/known_hosts
           - name: Checkout
             uses: actions/checkout@v4
+            with:
+              ref: main
           - name: Fix submodule URL for SSH
             run: |
               git submodule set-url src github.com-CatalystUI-CatalystUI:CatalystUI/CatalystUI.git
@@ -101,6 +103,7 @@ jobs:
             shell: pwsh
             run: |
               $root = "${{ github.workspace }}"
+              Get-ChildItem -Path $root -Exclude '.git', '_docfx_temp', 'CNAME' | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
               Copy-Item -Path "$root/_docfx_temp/*" -Destination $root -Recurse -Force
               Remove-Item -Recurse -Force "$root/_docfx_temp"
           - name: Commit and Push Documentation
