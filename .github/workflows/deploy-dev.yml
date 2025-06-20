@@ -12,8 +12,12 @@ jobs:
               ssh-private-key: ${{ secrets.CATALYST_PRIVATE_KEY }}
           - name: Checkout
             uses: actions/checkout@v4
-            with:
-              submodules: 'true'
+          - name: Fix submodule URL for SSH
+            run: |
+              git submodule set-url src git@github.com:CatalystUI/CatalystUI.git
+          - name: Initialize Submodules
+            run: |
+              git submodule update --init --recursive
           - name: Install PowerShell 7+
             run: |
               brew update
