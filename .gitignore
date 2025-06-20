@@ -1,5 +1,6 @@
-#### CatalystUI
-**/*.snk
+#### CatalystUI Documentation
+docs/api/**
+docs/_site/**
 
 #### DOTNET CORE
 *.swp

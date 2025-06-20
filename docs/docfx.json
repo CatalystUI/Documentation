@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src",
+          "files": [
+            "**/*.csproj"
+          ],
+          "exclude": [
+            "Typography/**",
+            "CatalystUI/Tooling/**"
+          ]
+        }
+      ],
+      "noRestore": true,
+      "dest": "api",
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "enumSortOrder": "declaringOrder",
+      "globalNamespaceId": "Catalyst"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "resources/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "pdf": false,
+      "_appName": "CatalystUI",
+      "_appTitle": "CatalystUI",
+      "_appFooter": "© 2025 FireController#1847 — All Rights Reserved",
+      "_appLogoPath": "resources/icon.svg",
+      "_appFaviconPath": "resources/favicon.png",
+      "_enableSearch": true,
+      "_gitContribute": {
+        "repo": "https://github.com/CatalystUI/Documentation",
+        "branch": "main"
+      }
+    }
+  }
+}
