@@ -1,0 +1,78 @@
+﻿name: Deploy (Development)
+on:
+    workflow_dispatch: 
+jobs:
+    deploy:
+      runs-on: macos-15
+      name: Deploy Development Documentation
+      steps:
+          - name: Prepare SSH Agent
+            uses: webfactory/ssh-agent@v0.8.0
+            with:
+              ssh-private-key: ${{ secrets.CATALYST_PRIVATE_KEY }}
+          - name: Checkout
+            uses: actions/checkout@v4
+            with:
+              submodules: 'true'
+          - name: Install PowerShell 7+
+            run: |
+              brew update
+              brew install --cask powershell
+          - name: Prepare .NET SNK
+            uses: actions/setup-dotnet@v4
+            with:
+              dotnet-version: '9.0.x'
+          - name: Prepare Mono
+            run: |
+              brew install mono
+          - name: Create Project Signatures
+            shell: pwsh
+            working-directory: ./src/CatalystUI
+            run: |
+              ./CreateSignatures.ps1
+          - name: Cache NuGet packages
+            uses: actions/cache@v4
+            with:
+              path: ~/.nuget/packages
+              key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+              restore-keys: |
+                ${{ runner.os }}-nuget-
+          - name: Restore Solution
+            shell: pwsh
+            working-directory: ./src/CatalystUI
+            run: |
+              dotnet restore ./CatalystUI.sln
+          - name: Build Solution
+            shell: pwsh
+            working-directory: ./src/CatalystUI
+            run: |
+              dotnet build ./CatalystUI.sln -c Release -v m
+          - name: Install DocFX
+            shell: pwsh
+            working-directory: ./src/CatalystUI
+            run: |
+              dotnet tool install -g docfx
+          - name: Generate Documentation
+            shell: pwsh
+            working-directory: ./docs
+            run: |
+              docfx docfx.json
+          - name: Configure for Git Upload
+            run: |
+              git config --global user.email "github-actions[bot]@users.noreply.github.com"
+              git config --global user.name "github-actions[bot]"
+          - name: Fetch Remote Branch
+            run: |
+              git fetch origin docs-dev || true
+              git switch docs-dev || git checkout --orphan docs-dev
+          - name: Clone Documentation
+            run: |
+              rm -rf ./* .[^.]* || true
+              cp -r ./docs/_site/* ./
+          - name: Commit and Push Documentation
+            run: |
+              git add .
+              git commit -m "Update development docs from ${{ github.sha }}" || echo "No changes to commit"
+              git push origin docs-dev
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,4 +1,4 @@
 [submodule "CatalystUI"]
 	path = src
-	url = https://github.com/CatalystUI/CatalystUI.git
+	url =  git@github.com:CatalystUI/CatalystUI.git
 	branch = experimental
