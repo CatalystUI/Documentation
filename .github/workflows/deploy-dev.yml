@@ -60,20 +60,24 @@ jobs:
             shell: pwsh
             working-directory: ./docs
             run: |
+              $env:PATH += ":$HOME/.dotnet/tools"
               docfx docfx.json
+              New-Item -ItemType Directory -Force -Path "$PWD/_docfx_temp"
+              Copy-Item -Path "./_site/*" -Destination "$PWD/_docfx_temp" -Recurse -Force
           - name: Configure for Git Upload
+            shell: pwsh
             run: |
               git config --global user.email "github-actions[bot]@users.noreply.github.com"
               git config --global user.name "github-actions[bot]"
-          - name: Fetch Remote Branch
-            run: |
               git fetch origin docs-dev || true
               git switch docs-dev || git checkout --orphan docs-dev
           - name: Clone Documentation
+            shell: pwsh
             run: |
-              rm -rf ./* .[^.]* || true
-              cp -r ./docs/_site/* ./
+              Get-ChildItem -Path . -Exclude .git, _docfx_tmp | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+              Copy-Item -Path "$PWD/_docfx_temp/*" -Destination "$PWD" -Recurse -Force
           - name: Commit and Push Documentation
+            shell: pwsh
             run: |
               git add .
               git commit -m "Update development docs from ${{ github.sha }}" || echo "No changes to commit"
