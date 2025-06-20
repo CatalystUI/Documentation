@@ -86,19 +86,19 @@ jobs:
               docfx docfx.json
               New-Item -ItemType Directory -Force -Path "$root/_docfx_temp"
               Copy-Item -Path "./_site/*" -Destination "$root/_docfx_temp" -Recurse -Force
-              Get-ChildItem -Path $root -Exclude '.git', '_docfx_temp', 'CNAME' | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-          - name: Fix origin URL for SSH
-            run: |
-              git remote set-url origin github.com-CatalystUI-Documentation:CatalystUI/Documentation.git
+
+              Get-ChildItem -Path $root -Force -Exclude '_docfx_temp' | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
           - name: Configure for Git Upload
             shell: pwsh
             run: |
+              Set-Location -Path "${{ github.workspace }}"
+              if (Test-Path ".git") { Remove-Item -Recurse -Force ".git" }
+              git init
               git config --global user.email "github-actions[bot]@users.noreply.github.com"
               git config --global user.name "github-actions[bot]"
-              git fetch origin docs-dev || true
-              git reset --hard HEAD
-              git clean -xfd
-              git switch docs-dev || git checkout --orphan docs-dev
+              git remote add origin github.com-CatalystUI-Documentation:CatalystUI/Documentation.git
+              git fetch origin docs-dev
+              git checkout -t origin/docs-dev
           - name: Clone Documentation
             shell: pwsh
             run: |
@@ -109,7 +109,7 @@ jobs:
           - name: Commit and Push Documentation
             shell: pwsh
             run: |
-              git add .
+              git add -A
               git commit -m "Update development docs from ${{ github.sha }}" || echo "No changes to commit"
               git push origin docs-dev
           - name: Upload Pages Artifact
