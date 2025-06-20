@@ -84,6 +84,7 @@ jobs:
               docfx docfx.json
               New-Item -ItemType Directory -Force -Path "$root/_docfx_temp"
               Copy-Item -Path "./_site/*" -Destination "$root/_docfx_temp" -Recurse -Force
+              Get-ChildItem -Path $root -Exclude '.git', '_docfx_temp', 'CNAME' | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
           - name: Fix origin URL for SSH
             run: |
               git remote set-url origin github.com-CatalystUI-Documentation:CatalystUI/Documentation.git
@@ -94,16 +95,34 @@ jobs:
               git config --global user.name "github-actions[bot]"
               git fetch origin docs-dev || true
               git reset --hard HEAD
+              git clean -xfd
               git switch docs-dev || git checkout --orphan docs-dev
           - name: Clone Documentation
             shell: pwsh
             run: |
               $root = "${{ github.workspace }}"
-              Get-ChildItem -Path $root -Exclude '.git', '_docfx_temp', 'CNAME' | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
               Copy-Item -Path "$root/_docfx_temp/*" -Destination $root -Recurse -Force
+              Remove-Item -Recurse -Force "$root/_docfx_temp"
           - name: Commit and Push Documentation
             shell: pwsh
             run: |
               git add .
               git commit -m "Update development docs from ${{ github.sha }}" || echo "No changes to commit"
               git push origin docs-dev
+          - name: Upload Pages Artifact
+            uses: actions/upload-pages-artifact@v3
+            with:
+              path: ./
+    deploy-pages:
+      needs: deploy
+      runs-on: ubuntu-latest
+      permissions:
+        pages: write
+        id-token: write
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      steps:
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v4
