@@ -62,9 +62,8 @@ jobs:
             run: |
               $env:PATH += ":$HOME/.dotnet/tools"
               docfx docfx.json
-              $root = (Resolve-Path "$PWD/../").Path
-              New-Item -ItemType Directory -Force -Path "$root/_docfx_temp"
-              Copy-Item -Path "./_site/*" -Destination "$root/_docfx_temp" -Recurse -Force
+              New-Item -ItemType Directory -Force -Path "${{ github.workspace }}/_docfx_temp"
+              Copy-Item -Path "./_site/*" -Destination "${{ github.workspace }}/_docfx_temp" -Recurse -Force
           - name: Configure for Git Upload
             shell: pwsh
             run: |
@@ -75,8 +74,8 @@ jobs:
           - name: Clone Documentation
             shell: pwsh
             run: |
-              Get-ChildItem -Path . -Exclude .git, _docfx_temp | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-              Copy-Item -Path "$PWD/_docfx_temp/*" -Destination "$PWD" -Recurse -Force
+              Get-ChildItem -Path $root -Exclude '.git', '_docfx_temp', 'CNAME' | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+              Copy-Item -Path "${{ github.workspace }}/_docfx_temp/*" -Destination $root -Recurse -Force
           - name: Commit and Push Documentation
             shell: pwsh
             run: |
