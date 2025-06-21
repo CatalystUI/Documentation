@@ -152,8 +152,93 @@ Class ThreadDelegateDispatcher
 
 
 
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Catalyst_Threading_ThreadDelegateDispatcher_LockoutTimeout" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.LockoutTimeout">
+  LockoutTimeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum number of milliseconds (ms) an enqueued delegate
+should remain unresponsive before timing out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LockoutTimeout = 250</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Catalyst_Threading_ThreadDelegateDispatcher_LockoutTimeout_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+The timeout is a utility value which can be used by
+any user of a dispatcher to ensure that their
+awaited executions do not block indefinitely.
+It is a commonly suggested value, but is not
+required to be used, since some delegates may
+take longer to execute than others.
+</p>
+<p>
+The value is larger when in debug mode to allow
+for debuggers to attach and inspect the code's
+execution. In release mode, it is set to a
+value of <code>250ms</code> for fast failures.
+</p>
+</div>
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="Catalyst_Threading_ThreadDelegateDispatcher_IsMainThreadCaptured_" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured*"></a>
+
+  <h3 id="Catalyst_Threading_ThreadDelegateDispatcher_IsMainThreadCaptured" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured">
+  IsMainThreadCaptured
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a flag indicating if the main thread has been captured.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMainThreadCaptured { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the main thread has been captured, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Catalyst_Threading_ThreadDelegateDispatcher_MainThreadDispatcher_" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.MainThreadDispatcher*"></a>
@@ -163,7 +248,7 @@ Class ThreadDelegateDispatcher
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the main thread dispatcher fetched via Capture(out ThreadDelegateDispatcher, Action, int?, bool).</p>
+  <div class="markdown level1 summary"><p>Gets the main thread dispatcher fetched via <a class="xref" href="Catalyst.Threading.ThreadDelegateDispatcher.html#Catalyst_Threading_ThreadDelegateDispatcher_Capture_System_Action_Catalyst_Threading_ThreadDelegateDispatcher__System_Nullable_System_Int32__System_Boolean_">Capture(Action&lt;ThreadDelegateDispatcher&gt;, int?, bool)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -350,7 +435,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute(in Action @delegate, bool wait = false, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute(in Action @delegate, bool wait = false, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -396,7 +481,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute(in Action&lt;nint, nint&gt; @delegate, nint caller, nint parameters, bool wait = false, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute(in Action&lt;nint, nint&gt; @delegate, nint caller, nint parameters, bool wait = false, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -448,7 +533,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute(in Action&lt;nint&gt; @delegate, nint caller, bool wait = false, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute(in Action&lt;nint&gt; @delegate, nint caller, bool wait = false, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -497,7 +582,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute(in Func&lt;nint, nint, nint&gt; @delegate, nint caller, nint parameters, out nint @return, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute(in Func&lt;nint, nint, nint&gt; @delegate, nint caller, nint parameters, out nint @return, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -549,7 +634,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute(in Func&lt;nint, nint&gt; @delegate, nint caller, out nint @return, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute(in Func&lt;nint, nint&gt; @delegate, nint caller, out nint @return, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -598,7 +683,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute(in Func&lt;nint&gt; @delegate, out nint @return, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute(in Func&lt;nint&gt; @delegate, out nint @return, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -644,7 +729,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller&gt;(in Action&lt;TCaller&gt; @delegate, TCaller caller, bool wait = false, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller&gt;(in Action&lt;TCaller&gt; @delegate, TCaller caller, bool wait = false, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -687,6 +772,57 @@ waits for it to complete if specified.</p>
 
   <a id="Catalyst_Threading_ThreadDelegateDispatcher_Execute_" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.Execute*"></a>
 
+  <h3 id="Catalyst_Threading_ThreadDelegateDispatcher_Execute__1_System_Func___0_____0__System_Int32_" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.Execute``1(System.Func{``0}@,``0@,System.Int32)">
+  Execute&lt;TReturn&gt;(in Func&lt;TReturn&gt;, out TReturn, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Attempts to enqueue a delegate for execution, and
+waits for it to complete if specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Execute&lt;TReturn&gt;(in Func&lt;TReturn&gt; @delegate, out TReturn @return, int timeout = 250)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delegate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;TReturn&gt;</dt>
+    <dd><p>The delegate to enqueue.</p>
+</dd>
+    <dt><code>return</code> <span class="xref">TReturn</span></dt>
+    <dd><p>A pointer to the return value of the delegate.</p>
+</dd>
+    <dt><code>timeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The timeout in milliseconds to wait for the delegate to complete execution, or <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.timeout.infinite">Infinite</a> (-1) to wait indefinitely.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the delegate executed within the timeout period; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TReturn</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Threading_ThreadDelegateDispatcher_Execute_" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.Execute*"></a>
+
   <h3 id="Catalyst_Threading_ThreadDelegateDispatcher_Execute__2_System_Action___0___1_____0___1_System_Boolean_System_Int32_" data-uid="Catalyst.Threading.ThreadDelegateDispatcher.Execute``2(System.Action{``0,``1}@,``0,``1,System.Boolean,System.Int32)">
   Execute&lt;TCaller, TParameters&gt;(in Action&lt;TCaller, TParameters&gt;, TCaller, TParameters, bool, int)
   
@@ -698,7 +834,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller, TParameters&gt;(in Action&lt;TCaller, TParameters&gt; @delegate, TCaller caller, TParameters parameters, bool wait = false, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller, TParameters&gt;(in Action&lt;TCaller, TParameters&gt; @delegate, TCaller caller, TParameters parameters, bool wait = false, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -757,7 +893,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller, TReturn&gt;(in Func&lt;TCaller, TReturn&gt; @delegate, TCaller caller, out TReturn @return, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller, TReturn&gt;(in Func&lt;TCaller, TReturn&gt; @delegate, TCaller caller, out TReturn @return, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -813,7 +949,7 @@ waits for it to complete if specified.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller, TParameters, TReturn&gt;(in Func&lt;TCaller, TParameters, TReturn&gt; @delegate, TCaller caller, TParameters parameters, out TReturn @return, int timeout = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute&lt;TCaller, TParameters, TReturn&gt;(in Func&lt;TCaller, TParameters, TReturn&gt; @delegate, TCaller caller, TParameters parameters, out TReturn @return, int timeout = 250)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

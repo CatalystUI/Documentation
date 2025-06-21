@@ -68,6 +68,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Common.INativeApi-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Common.INativeApi-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Common.INativeApi<T>",
+      "Summary": "<p sourcefile=\"api/Catalyst.Common.INativeApi-1.yml\" sourcestartlinenumber=\"1\">A common contract for native API access in CatalystUI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Catalyst.Threading.DelegateQueue.EnqueuedDelegate.yml",
       "output": {
         ".html": {
@@ -93,6 +121,20 @@
       "IsMRef": true,
       "Title": "Catalyst.Threading.DelegateQueue",
       "Summary": "<p sourcefile=\"api/Catalyst.Threading.DelegateQueue.yml\" sourcestartlinenumber=\"1\">A thread-safe <xref href=\"Catalyst.Collections.StaticArrayQueue%601\" data-throw-if-not-resolved=\"false\"></xref> which enqueues and dequeues delegates for execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Threading.RequiresMainThreadException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Threading.RequiresMainThreadException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Threading.RequiresMainThreadException",
+      "Summary": "<p sourcefile=\"api/Catalyst.Threading.RequiresMainThreadException.yml\" sourcestartlinenumber=\"1\">Represents an exception that is thrown\nwhen the operation requires the main thread\nto be captured, but it has not been captured.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,6 +180,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Windowing.Glfw3.Glfw3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Windowing.Glfw3.Glfw3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Windowing.Glfw3.Glfw3",
+      "Summary": "<p sourcefile=\"api/Catalyst.Windowing.Glfw3.Glfw3.yml\" sourcestartlinenumber=\"1\">The GLFW 3 native API class for CatalystUI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Windowing.Glfw3.GlfwDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Windowing.Glfw3.GlfwDisplay.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Windowing.Glfw3.GlfwDisplay",
+      "Summary": "<p sourcefile=\"api/Catalyst.Windowing.Glfw3.GlfwDisplay.yml\" sourcestartlinenumber=\"1\">An implementation of <xref href=\"Catalyst.Windowing.IDisplay\" data-throw-if-not-resolved=\"false\"></xref> using the GLFW 3 windowing library.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Windowing.Glfw3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Windowing.Glfw3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Windowing.Glfw3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Catalyst.Windowing.IDisplay.yml",
       "output": {
         ".html": {
@@ -149,6 +233,20 @@
       "IsMRef": true,
       "Title": "Catalyst.Windowing.IDisplay",
       "Summary": "<p sourcefile=\"api/Catalyst.Windowing.IDisplay.yml\" sourcestartlinenumber=\"1\">The representation of an I/O device which provides an end-user\nsome form of visual output in the form of pixels in a rectangular\nviewing area.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Windowing.WindowException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Windowing.WindowException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Windowing.WindowException",
+      "Summary": "<p sourcefile=\"api/Catalyst.Windowing.WindowException.yml\" sourcestartlinenumber=\"1\">Represents an error that occurs during windowing operations.</p>\n"
     },
     {
       "type": "ManagedReference",

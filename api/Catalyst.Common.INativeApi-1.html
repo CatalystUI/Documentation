@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace Catalyst.Windowing | CatalystUI </title>
+      <title>Interface INativeApi&lt;T&gt; | CatalystUI </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace Catalyst.Windowing | CatalystUI ">
+      <meta name="title" content="Interface INativeApi&lt;T&gt; | CatalystUI ">
       
-      
+      <meta name="description" content="A common contract for native API access in CatalystUI.">
       <link rel="icon" href="../resources/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Common_INativeApi_1.md&amp;value=---%0Auid%3A%20Catalyst.Common.INativeApi%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,44 +84,93 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Catalyst.Windowing">
+        <article data-uid="Catalyst.Common.INativeApi`1">
 
-  <h1 id="Catalyst_Windowing" data-uid="Catalyst.Windowing" class="text-break">Namespace Catalyst.Windowing</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Catalyst.Windowing.WindowException.html">WindowException</a></dt>
-      <dd><p>Represents an error that occurs during windowing operations.</p>
+
+  <h1 id="Catalyst_Common_INativeApi_1" data-uid="Catalyst.Common.INativeApi`1" class="text-break">
+Interface INativeApi&lt;T&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Catalyst.html">Catalyst</a>.<a class="xref" href="Catalyst.Common.html">Common</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CatalystUI.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A common contract for native API access in CatalystUI.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface INativeApi&lt;out T&gt; : IDisposable</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the native API.</p>
 </dd>
-    </dl>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Catalyst.Windowing.IDisplay.html">IDisplay</a></dt>
-      <dd><p>The representation of an I/O device which provides an end-user
-some form of visual output in the form of pixels in a rectangular
-viewing area.</p>
-</dd>
-    </dl>
-    <h3 id="enums">
-Enums
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Catalyst.Windowing.DisplayOrientation.html">DisplayOrientation</a></dt>
-      <dd><p>A list of possible orientations for a display.</p>
-</dd>
-    </dl>
+  </dl>
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">IDisposable.Dispose()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Catalyst_Common_INativeApi_1_Api_" data-uid="Catalyst.Common.INativeApi`1.Api*"></a>
+
+  <h3 id="Catalyst_Common_INativeApi_1_Api" data-uid="Catalyst.Common.INativeApi`1.Api">
+  Api
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fetches the native API instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T Api { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Common_INativeApi_1.md&amp;value=---%0Auid%3A%20Catalyst.Common.INativeApi%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
         </div>
 
 

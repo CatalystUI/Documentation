@@ -693,6 +693,38 @@ references:
   fullName.vb: Catalyst.Collections.StaticArrayStack(Of T).Push
   nameWithType: StaticArrayStack<T>.Push
   nameWithType.vb: StaticArrayStack(Of T).Push
+- uid: Catalyst.Common
+  name: Catalyst.Common
+  href: api/Catalyst.Common.html
+  commentId: N:Catalyst.Common
+  fullName: Catalyst.Common
+  nameWithType: Catalyst.Common
+- uid: Catalyst.Common.INativeApi`1
+  name: INativeApi<T>
+  href: api/Catalyst.Common.INativeApi-1.html
+  commentId: T:Catalyst.Common.INativeApi`1
+  name.vb: INativeApi(Of T)
+  fullName: Catalyst.Common.INativeApi<T>
+  fullName.vb: Catalyst.Common.INativeApi(Of T)
+  nameWithType: INativeApi<T>
+  nameWithType.vb: INativeApi(Of T)
+- uid: Catalyst.Common.INativeApi`1.Api
+  name: Api
+  href: api/Catalyst.Common.INativeApi-1.html#Catalyst_Common_INativeApi_1_Api
+  commentId: P:Catalyst.Common.INativeApi`1.Api
+  fullName: Catalyst.Common.INativeApi<T>.Api
+  fullName.vb: Catalyst.Common.INativeApi(Of T).Api
+  nameWithType: INativeApi<T>.Api
+  nameWithType.vb: INativeApi(Of T).Api
+- uid: Catalyst.Common.INativeApi`1.Api*
+  name: Api
+  href: api/Catalyst.Common.INativeApi-1.html#Catalyst_Common_INativeApi_1_Api_
+  commentId: Overload:Catalyst.Common.INativeApi`1.Api
+  isSpec: "True"
+  fullName: Catalyst.Common.INativeApi<T>.Api
+  fullName.vb: Catalyst.Common.INativeApi(Of T).Api
+  nameWithType: INativeApi<T>.Api
+  nameWithType.vb: INativeApi(Of T).Api
 - uid: Catalyst.Threading
   name: Catalyst.Threading
   href: api/Catalyst.Threading.html
@@ -905,6 +937,31 @@ references:
   isSpec: "True"
   fullName: Catalyst.Threading.DelegateQueue.Queue
   nameWithType: DelegateQueue.Queue
+- uid: Catalyst.Threading.RequiresMainThreadException
+  name: RequiresMainThreadException
+  href: api/Catalyst.Threading.RequiresMainThreadException.html
+  commentId: T:Catalyst.Threading.RequiresMainThreadException
+  fullName: Catalyst.Threading.RequiresMainThreadException
+  nameWithType: RequiresMainThreadException
+- uid: Catalyst.Threading.RequiresMainThreadException.#ctor(System.String,System.String)
+  name: RequiresMainThreadException(string, string)
+  href: api/Catalyst.Threading.RequiresMainThreadException.html#Catalyst_Threading_RequiresMainThreadException__ctor_System_String_System_String_
+  commentId: M:Catalyst.Threading.RequiresMainThreadException.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: Catalyst.Threading.RequiresMainThreadException.RequiresMainThreadException(string, string)
+  fullName.vb: Catalyst.Threading.RequiresMainThreadException.New(String, String)
+  nameWithType: RequiresMainThreadException.RequiresMainThreadException(string, string)
+  nameWithType.vb: RequiresMainThreadException.New(String, String)
+- uid: Catalyst.Threading.RequiresMainThreadException.#ctor*
+  name: RequiresMainThreadException
+  href: api/Catalyst.Threading.RequiresMainThreadException.html#Catalyst_Threading_RequiresMainThreadException__ctor_
+  commentId: Overload:Catalyst.Threading.RequiresMainThreadException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Catalyst.Threading.RequiresMainThreadException.RequiresMainThreadException
+  fullName.vb: Catalyst.Threading.RequiresMainThreadException.New
+  nameWithType: RequiresMainThreadException.RequiresMainThreadException
+  nameWithType.vb: RequiresMainThreadException.New
 - uid: Catalyst.Threading.ThreadDelegateDispatcher
   name: ThreadDelegateDispatcher
   href: api/Catalyst.Threading.ThreadDelegateDispatcher.html
@@ -1010,6 +1067,15 @@ references:
   fullName.vb: Catalyst.Threading.ThreadDelegateDispatcher.Execute(Of TCaller)(System.Action(Of TCaller), TCaller, Boolean, Integer)
   nameWithType: ThreadDelegateDispatcher.Execute<TCaller>(in Action<TCaller>, TCaller, bool, int)
   nameWithType.vb: ThreadDelegateDispatcher.Execute(Of TCaller)(Action(Of TCaller), TCaller, Boolean, Integer)
+- uid: Catalyst.Threading.ThreadDelegateDispatcher.Execute``1(System.Func{``0}@,``0@,System.Int32)
+  name: Execute<TReturn>(in Func<TReturn>, out TReturn, int)
+  href: api/Catalyst.Threading.ThreadDelegateDispatcher.html#Catalyst_Threading_ThreadDelegateDispatcher_Execute__1_System_Func___0_____0__System_Int32_
+  commentId: M:Catalyst.Threading.ThreadDelegateDispatcher.Execute``1(System.Func{``0}@,``0@,System.Int32)
+  name.vb: Execute(Of TReturn)(Func(Of TReturn), TReturn, Integer)
+  fullName: Catalyst.Threading.ThreadDelegateDispatcher.Execute<TReturn>(in System.Func<TReturn>, out TReturn, int)
+  fullName.vb: Catalyst.Threading.ThreadDelegateDispatcher.Execute(Of TReturn)(System.Func(Of TReturn), TReturn, Integer)
+  nameWithType: ThreadDelegateDispatcher.Execute<TReturn>(in Func<TReturn>, out TReturn, int)
+  nameWithType.vb: ThreadDelegateDispatcher.Execute(Of TReturn)(Func(Of TReturn), TReturn, Integer)
 - uid: Catalyst.Threading.ThreadDelegateDispatcher.Execute``2(System.Action{``0,``1}@,``0,``1,System.Boolean,System.Int32)
   name: Execute<TCaller, TParameters>(in Action<TCaller, TParameters>, TCaller, TParameters, bool, int)
   href: api/Catalyst.Threading.ThreadDelegateDispatcher.html#Catalyst_Threading_ThreadDelegateDispatcher_Execute__2_System_Action___0___1_____0___1_System_Boolean_System_Int32_
@@ -1053,6 +1119,25 @@ references:
   isSpec: "True"
   fullName: Catalyst.Threading.ThreadDelegateDispatcher.~ThreadDelegateDispatcher
   nameWithType: ThreadDelegateDispatcher.~ThreadDelegateDispatcher
+- uid: Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured
+  name: IsMainThreadCaptured
+  href: api/Catalyst.Threading.ThreadDelegateDispatcher.html#Catalyst_Threading_ThreadDelegateDispatcher_IsMainThreadCaptured
+  commentId: P:Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured
+  fullName: Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured
+  nameWithType: ThreadDelegateDispatcher.IsMainThreadCaptured
+- uid: Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured*
+  name: IsMainThreadCaptured
+  href: api/Catalyst.Threading.ThreadDelegateDispatcher.html#Catalyst_Threading_ThreadDelegateDispatcher_IsMainThreadCaptured_
+  commentId: Overload:Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured
+  isSpec: "True"
+  fullName: Catalyst.Threading.ThreadDelegateDispatcher.IsMainThreadCaptured
+  nameWithType: ThreadDelegateDispatcher.IsMainThreadCaptured
+- uid: Catalyst.Threading.ThreadDelegateDispatcher.LockoutTimeout
+  name: LockoutTimeout
+  href: api/Catalyst.Threading.ThreadDelegateDispatcher.html#Catalyst_Threading_ThreadDelegateDispatcher_LockoutTimeout
+  commentId: F:Catalyst.Threading.ThreadDelegateDispatcher.LockoutTimeout
+  fullName: Catalyst.Threading.ThreadDelegateDispatcher.LockoutTimeout
+  nameWithType: ThreadDelegateDispatcher.LockoutTimeout
 - uid: Catalyst.Threading.ThreadDelegateDispatcher.MainThreadDispatcher
   name: MainThreadDispatcher
   href: api/Catalyst.Threading.ThreadDelegateDispatcher.html#Catalyst_Threading_ThreadDelegateDispatcher_MainThreadDispatcher
@@ -1144,6 +1229,266 @@ references:
   commentId: F:Catalyst.Windowing.DisplayOrientation.PortraitFlipped
   fullName: Catalyst.Windowing.DisplayOrientation.PortraitFlipped
   nameWithType: DisplayOrientation.PortraitFlipped
+- uid: Catalyst.Windowing.Glfw3
+  name: Catalyst.Windowing.Glfw3
+  href: api/Catalyst.Windowing.Glfw3.html
+  commentId: N:Catalyst.Windowing.Glfw3
+  fullName: Catalyst.Windowing.Glfw3
+  nameWithType: Catalyst.Windowing.Glfw3
+- uid: Catalyst.Windowing.Glfw3.Glfw3
+  name: Glfw3
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html
+  commentId: T:Catalyst.Windowing.Glfw3.Glfw3
+  fullName: Catalyst.Windowing.Glfw3.Glfw3
+  nameWithType: Glfw3
+- uid: Catalyst.Windowing.Glfw3.Glfw3.Api
+  name: Api
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Api
+  commentId: P:Catalyst.Windowing.Glfw3.Glfw3.Api
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.Api
+  nameWithType: Glfw3.Api
+- uid: Catalyst.Windowing.Glfw3.Glfw3.Api*
+  name: Api
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Api_
+  commentId: Overload:Catalyst.Windowing.Glfw3.Glfw3.Api
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.Api
+  nameWithType: Glfw3.Api
+- uid: Catalyst.Windowing.Glfw3.Glfw3.Dispose
+  name: Dispose()
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Dispose
+  commentId: M:Catalyst.Windowing.Glfw3.Glfw3.Dispose
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.Dispose()
+  nameWithType: Glfw3.Dispose()
+- uid: Catalyst.Windowing.Glfw3.Glfw3.Dispose*
+  name: Dispose
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Dispose_
+  commentId: Overload:Catalyst.Windowing.Glfw3.Glfw3.Dispose
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.Dispose
+  nameWithType: Glfw3.Dispose
+- uid: Catalyst.Windowing.Glfw3.Glfw3.Finalize
+  name: ~Glfw3()
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Finalize
+  commentId: M:Catalyst.Windowing.Glfw3.Glfw3.Finalize
+  name.vb: ''
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.~Glfw3()
+  fullName.vb: ''
+  nameWithType: Glfw3.~Glfw3()
+  nameWithType.vb: ''
+- uid: Catalyst.Windowing.Glfw3.Glfw3.Finalize*
+  name: ~Glfw3
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Finalize_
+  commentId: Overload:Catalyst.Windowing.Glfw3.Glfw3.Finalize
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.~Glfw3
+  nameWithType: Glfw3.~Glfw3
+- uid: Catalyst.Windowing.Glfw3.Glfw3.GetInstance
+  name: GetInstance()
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_GetInstance
+  commentId: M:Catalyst.Windowing.Glfw3.Glfw3.GetInstance
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.GetInstance()
+  nameWithType: Glfw3.GetInstance()
+- uid: Catalyst.Windowing.Glfw3.Glfw3.GetInstance*
+  name: GetInstance
+  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_GetInstance_
+  commentId: Overload:Catalyst.Windowing.Glfw3.Glfw3.GetInstance
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.Glfw3.GetInstance
+  nameWithType: Glfw3.GetInstance
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay
+  name: GlfwDisplay
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html
+  commentId: T:Catalyst.Windowing.Glfw3.GlfwDisplay
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay
+  nameWithType: GlfwDisplay
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor
+  name: Descriptor
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Descriptor
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor
+  nameWithType: GlfwDisplay.Descriptor
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor*
+  name: Descriptor
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Descriptor_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor
+  nameWithType: GlfwDisplay.Descriptor
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays
+  name: GetDisplays()
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays
+  commentId: M:Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays()
+  nameWithType: GlfwDisplay.GetDisplays()
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays*
+  name: GetDisplays
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays
+  nameWithType: GlfwDisplay.GetDisplays
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays``1
+  name: GetDisplays<T>()
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays__1
+  commentId: M:Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays``1
+  name.vb: GetDisplays(Of T)()
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays<T>()
+  fullName.vb: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays(Of T)()
+  nameWithType: GlfwDisplay.GetDisplays<T>()
+  nameWithType.vb: GlfwDisplay.GetDisplays(Of T)()
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay
+  name: GetPrimaryDisplay()
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay
+  commentId: M:Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay()
+  nameWithType: GlfwDisplay.GetPrimaryDisplay()
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay*
+  name: GetPrimaryDisplay
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay
+  nameWithType: GlfwDisplay.GetPrimaryDisplay
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay``1
+  name: GetPrimaryDisplay<T>()
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay__1
+  commentId: M:Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay``1
+  name.vb: GetPrimaryDisplay(Of T)()
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay<T>()
+  fullName.vb: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay(Of T)()
+  nameWithType: GlfwDisplay.GetPrimaryDisplay<T>()
+  nameWithType.vb: GlfwDisplay.GetPrimaryDisplay(Of T)()
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Height
+  name: Height
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Height
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.Height
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Height
+  nameWithType: GlfwDisplay.Height
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Height*
+  name: Height
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Height_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.Height
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Height
+  nameWithType: GlfwDisplay.Height
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer
+  name: Manufacturer
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Manufacturer
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer
+  nameWithType: GlfwDisplay.Manufacturer
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer*
+  name: Manufacturer
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Manufacturer_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer
+  nameWithType: GlfwDisplay.Manufacturer
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation
+  name: Orientation
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Orientation
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation
+  nameWithType: GlfwDisplay.Orientation
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation*
+  name: Orientation
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Orientation_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation
+  nameWithType: GlfwDisplay.Orientation
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch
+  name: PixelsPerInch
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_PixelsPerInch
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch
+  nameWithType: GlfwDisplay.PixelsPerInch
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch*
+  name: PixelsPerInch
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_PixelsPerInch_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch
+  nameWithType: GlfwDisplay.PixelsPerInch
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate
+  name: RefreshRate
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_RefreshRate
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate
+  nameWithType: GlfwDisplay.RefreshRate
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate*
+  name: RefreshRate
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_RefreshRate_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate
+  nameWithType: GlfwDisplay.RefreshRate
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation
+  name: Rotation
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Rotation
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation
+  nameWithType: GlfwDisplay.Rotation
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation*
+  name: Rotation
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Rotation_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation
+  nameWithType: GlfwDisplay.Rotation
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor
+  name: ScalingFactor
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_ScalingFactor
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor
+  nameWithType: GlfwDisplay.ScalingFactor
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor*
+  name: ScalingFactor
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_ScalingFactor_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor
+  nameWithType: GlfwDisplay.ScalingFactor
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Width
+  name: Width
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Width
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.Width
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Width
+  nameWithType: GlfwDisplay.Width
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Width*
+  name: Width
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Width_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.Width
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Width
+  nameWithType: GlfwDisplay.Width
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.X
+  name: X
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_X
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.X
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.X
+  nameWithType: GlfwDisplay.X
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.X*
+  name: X
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_X_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.X
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.X
+  nameWithType: GlfwDisplay.X
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Y
+  name: Y
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Y
+  commentId: P:Catalyst.Windowing.Glfw3.GlfwDisplay.Y
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Y
+  nameWithType: GlfwDisplay.Y
+- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Y*
+  name: Y
+  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Y_
+  commentId: Overload:Catalyst.Windowing.Glfw3.GlfwDisplay.Y
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Y
+  nameWithType: GlfwDisplay.Y
 - uid: Catalyst.Windowing.IDisplay
   name: IDisplay
   href: api/Catalyst.Windowing.IDisplay.html
@@ -1325,3 +1670,46 @@ references:
   isSpec: "True"
   fullName: Catalyst.Windowing.IDisplay.Y
   nameWithType: IDisplay.Y
+- uid: Catalyst.Windowing.WindowException
+  name: WindowException
+  href: api/Catalyst.Windowing.WindowException.html
+  commentId: T:Catalyst.Windowing.WindowException
+  fullName: Catalyst.Windowing.WindowException
+  nameWithType: WindowException
+- uid: Catalyst.Windowing.WindowException.#ctor
+  name: WindowException()
+  href: api/Catalyst.Windowing.WindowException.html#Catalyst_Windowing_WindowException__ctor
+  commentId: M:Catalyst.Windowing.WindowException.#ctor
+  name.vb: New()
+  fullName: Catalyst.Windowing.WindowException.WindowException()
+  fullName.vb: Catalyst.Windowing.WindowException.New()
+  nameWithType: WindowException.WindowException()
+  nameWithType.vb: WindowException.New()
+- uid: Catalyst.Windowing.WindowException.#ctor(System.String)
+  name: WindowException(string)
+  href: api/Catalyst.Windowing.WindowException.html#Catalyst_Windowing_WindowException__ctor_System_String_
+  commentId: M:Catalyst.Windowing.WindowException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Catalyst.Windowing.WindowException.WindowException(string)
+  fullName.vb: Catalyst.Windowing.WindowException.New(String)
+  nameWithType: WindowException.WindowException(string)
+  nameWithType.vb: WindowException.New(String)
+- uid: Catalyst.Windowing.WindowException.#ctor(System.String,System.Exception)
+  name: WindowException(string, Exception)
+  href: api/Catalyst.Windowing.WindowException.html#Catalyst_Windowing_WindowException__ctor_System_String_System_Exception_
+  commentId: M:Catalyst.Windowing.WindowException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Catalyst.Windowing.WindowException.WindowException(string, System.Exception)
+  fullName.vb: Catalyst.Windowing.WindowException.New(String, System.Exception)
+  nameWithType: WindowException.WindowException(string, Exception)
+  nameWithType.vb: WindowException.New(String, Exception)
+- uid: Catalyst.Windowing.WindowException.#ctor*
+  name: WindowException
+  href: api/Catalyst.Windowing.WindowException.html#Catalyst_Windowing_WindowException__ctor_
+  commentId: Overload:Catalyst.Windowing.WindowException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Catalyst.Windowing.WindowException.WindowException
+  fullName.vb: Catalyst.Windowing.WindowException.New
+  nameWithType: WindowException.WindowException
+  nameWithType.vb: WindowException.New

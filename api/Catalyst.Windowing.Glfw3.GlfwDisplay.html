@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IDisplay | CatalystUI </title>
+      <title>Class GlfwDisplay | CatalystUI </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IDisplay | CatalystUI ">
+      <meta name="title" content="Class GlfwDisplay | CatalystUI ">
       
-      <meta name="description" content="The representation of an I/O device which provides an end-user some form of visual output in the form of pixels in a rectangular viewing area.">
+      <meta name="description" content="An implementation of  using the GLFW 3 windowing library.">
       <link rel="icon" href="../resources/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Windowing_IDisplay.md&amp;value=---%0Auid%3A%20Catalyst.Windowing.IDisplay%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Windowing_Glfw3_GlfwDisplay.md&amp;value=---%0Auid%3A%20Catalyst.Windowing.Glfw3.GlfwDisplay%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,35 +84,71 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Catalyst.Windowing.IDisplay">
+        <article data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay">
 
 
 
-  <h1 id="Catalyst_Windowing_IDisplay" data-uid="Catalyst.Windowing.IDisplay" class="text-break">
-Interface IDisplay  
+  <h1 id="Catalyst_Windowing_Glfw3_GlfwDisplay" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay" class="text-break">
+Class GlfwDisplay  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Catalyst.html">Catalyst</a>.<a class="xref" href="Catalyst.Windowing.html">Windowing</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>CatalystUI.Core.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Catalyst.html">Catalyst</a>.<a class="xref" href="Catalyst.Windowing.html">Windowing</a>.<a class="xref" href="Catalyst.Windowing.Glfw3.html">Glfw3</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CatalystUI.Windowing.Glfw3.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The representation of an I/O device which provides an end-user
-some form of visual output in the form of pixels in a rectangular
-viewing area.</p>
+  <div class="markdown summary"><p>An implementation of <a class="xref" href="Catalyst.Windowing.IDisplay.html">IDisplay</a> using the GLFW 3 windowing library.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDisplay</code></pre>
+    <pre><code class="lang-csharp hljs">public class GlfwDisplay : IDisplay</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">GlfwDisplay</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Catalyst.Windowing.IDisplay.html">IDisplay</a></div>
+    </dd>
+  </dl>
 
 
-
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -123,9 +159,9 @@ viewing area.</p>
 </h2>
 
 
-  <a id="Catalyst_Windowing_IDisplay_Descriptor_" data-uid="Catalyst.Windowing.IDisplay.Descriptor*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_Descriptor_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_Descriptor" data-uid="Catalyst.Windowing.IDisplay.Descriptor">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_Descriptor" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Descriptor">
   Descriptor
   
   </h3>
@@ -135,7 +171,7 @@ viewing area.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string? Descriptor { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string? Descriptor { get; init; }</code></pre>
   </div>
 
 
@@ -156,9 +192,9 @@ viewing area.</p>
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_Height_" data-uid="Catalyst.Windowing.IDisplay.Height*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_Height_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Height*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_Height" data-uid="Catalyst.Windowing.IDisplay.Height">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_Height" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Height">
   Height
   
   </h3>
@@ -168,7 +204,7 @@ viewing area.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">uint Height { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required uint Height { get; init; }</code></pre>
   </div>
 
 
@@ -189,9 +225,9 @@ viewing area.</p>
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_Manufacturer_" data-uid="Catalyst.Windowing.IDisplay.Manufacturer*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_Manufacturer_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_Manufacturer" data-uid="Catalyst.Windowing.IDisplay.Manufacturer">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_Manufacturer" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Manufacturer">
   Manufacturer
   
   </h3>
@@ -201,7 +237,7 @@ viewing area.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string? Manufacturer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string? Manufacturer { get; init; }</code></pre>
   </div>
 
 
@@ -222,9 +258,9 @@ viewing area.</p>
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_Orientation_" data-uid="Catalyst.Windowing.IDisplay.Orientation*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_Orientation_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_Orientation" data-uid="Catalyst.Windowing.IDisplay.Orientation">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_Orientation" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Orientation">
   Orientation
   
   </h3>
@@ -234,7 +270,7 @@ viewing area.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DisplayOrientation Orientation { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required DisplayOrientation Orientation { get; init; }</code></pre>
   </div>
 
 
@@ -255,9 +291,9 @@ viewing area.</p>
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_PixelsPerInch_" data-uid="Catalyst.Windowing.IDisplay.PixelsPerInch*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_PixelsPerInch_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_PixelsPerInch" data-uid="Catalyst.Windowing.IDisplay.PixelsPerInch">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_PixelsPerInch" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.PixelsPerInch">
   PixelsPerInch
   
   </h3>
@@ -267,7 +303,7 @@ viewing area.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double PixelsPerInch { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required double PixelsPerInch { get; init; }</code></pre>
   </div>
 
 
@@ -284,7 +320,7 @@ viewing area.</p>
 
 
 
-  <h4 class="section" id="Catalyst_Windowing_IDisplay_PixelsPerInch_remarks">Remarks</h4>
+  <h4 class="section" id="Catalyst_Windowing_Glfw3_GlfwDisplay_PixelsPerInch_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>
 Also known as the dots per inch (DPI) of the display,
 the default value is <code>96</code> PPI (pixels per inch),
@@ -317,9 +353,9 @@ PPI and DPI, see the following resources:
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_RefreshRate_" data-uid="Catalyst.Windowing.IDisplay.RefreshRate*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_RefreshRate_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_RefreshRate" data-uid="Catalyst.Windowing.IDisplay.RefreshRate">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_RefreshRate" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.RefreshRate">
   RefreshRate
   
   </h3>
@@ -329,7 +365,7 @@ PPI and DPI, see the following resources:
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double RefreshRate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required double RefreshRate { get; init; }</code></pre>
   </div>
 
 
@@ -350,9 +386,9 @@ PPI and DPI, see the following resources:
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_Rotation_" data-uid="Catalyst.Windowing.IDisplay.Rotation*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_Rotation_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_Rotation" data-uid="Catalyst.Windowing.IDisplay.Rotation">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_Rotation" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Rotation">
   Rotation
   
   </h3>
@@ -362,7 +398,7 @@ PPI and DPI, see the following resources:
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double Rotation { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required double Rotation { get; init; }</code></pre>
   </div>
 
 
@@ -379,7 +415,7 @@ PPI and DPI, see the following resources:
 
 
 
-  <h4 class="section" id="Catalyst_Windowing_IDisplay_Rotation_remarks">Remarks</h4>
+  <h4 class="section" id="Catalyst_Windowing_Glfw3_GlfwDisplay_Rotation_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>
 A display's rotation is a more precise value of
 describing the display's orientation. If the
@@ -396,9 +432,9 @@ whereas negative values rotate the display counter-clockwise.
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_ScalingFactor_" data-uid="Catalyst.Windowing.IDisplay.ScalingFactor*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_ScalingFactor_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_ScalingFactor" data-uid="Catalyst.Windowing.IDisplay.ScalingFactor">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_ScalingFactor" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.ScalingFactor">
   ScalingFactor
   
   </h3>
@@ -408,7 +444,7 @@ whereas negative values rotate the display counter-clockwise.
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double ScalingFactor { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required double ScalingFactor { get; init; }</code></pre>
   </div>
 
 
@@ -424,7 +460,7 @@ whereas negative values rotate the display counter-clockwise.
 
 
 
-  <h4 class="section" id="Catalyst_Windowing_IDisplay_ScalingFactor_examples">Examples</h4>
+  <h4 class="section" id="Catalyst_Windowing_Glfw3_GlfwDisplay_ScalingFactor_examples">Examples</h4>
   <p>A scaling factor of <code>1.25</code>
 indicates the display's physical
 size should be scaled by <code>125%</code>.
@@ -435,7 +471,7 @@ perform <code>1920 / 1.25</code> to get
 the value of <code>1536</code>.</p>
 
 
-  <h4 class="section" id="Catalyst_Windowing_IDisplay_ScalingFactor_remarks">Remarks</h4>
+  <h4 class="section" id="Catalyst_Windowing_Glfw3_GlfwDisplay_ScalingFactor_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>
 A scaling factor is used to determine the
 display's logical size in pixels, and
@@ -457,9 +493,9 @@ is increased.
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_Width_" data-uid="Catalyst.Windowing.IDisplay.Width*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_Width_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Width*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_Width" data-uid="Catalyst.Windowing.IDisplay.Width">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_Width" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Width">
   Width
   
   </h3>
@@ -469,7 +505,7 @@ is increased.
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">uint Width { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required uint Width { get; init; }</code></pre>
   </div>
 
 
@@ -490,9 +526,9 @@ is increased.
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_X_" data-uid="Catalyst.Windowing.IDisplay.X*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_X_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.X*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_X" data-uid="Catalyst.Windowing.IDisplay.X">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_X" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.X">
   X
   
   </h3>
@@ -503,7 +539,7 @@ primary display in pixels.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double X { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required double X { get; init; }</code></pre>
   </div>
 
 
@@ -520,7 +556,7 @@ primary display in pixels.</p>
 
 
 
-  <h4 class="section" id="Catalyst_Windowing_IDisplay_X_remarks">Remarks</h4>
+  <h4 class="section" id="Catalyst_Windowing_Glfw3_GlfwDisplay_X_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The horizontal position will always be reported as
 the distance from the primary display's left edge.
 Negative values indicate the display is to the left
@@ -531,9 +567,9 @@ the display is to the right of the primary display.</p>
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_Y_" data-uid="Catalyst.Windowing.IDisplay.Y*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_Y_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Y*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_Y" data-uid="Catalyst.Windowing.IDisplay.Y">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_Y" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.Y">
   Y
   
   </h3>
@@ -544,7 +580,7 @@ primary display in pixels.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double Y { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required double Y { get; init; }</code></pre>
   </div>
 
 
@@ -561,7 +597,7 @@ primary display in pixels.</p>
 
 
 
-  <h4 class="section" id="Catalyst_Windowing_IDisplay_Y_remarks">Remarks</h4>
+  <h4 class="section" id="Catalyst_Windowing_Glfw3_GlfwDisplay_Y_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The vertical position will always be reported as
 the distance from the primary display's top edge.
 Negative values indicate the display is above the
@@ -576,9 +612,42 @@ the display is below the primary display.</p>
 </h2>
 
 
-  <a id="Catalyst_Windowing_IDisplay_GetDisplays_" data-uid="Catalyst.Windowing.IDisplay.GetDisplays*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_GetDisplays__1" data-uid="Catalyst.Windowing.IDisplay.GetDisplays``1">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays">
+  GetDisplays()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Queries the system for a list of all available displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;GlfwDisplay&gt; GetDisplays()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Catalyst.Windowing.Glfw3.GlfwDisplay.html">GlfwDisplay</a>&gt;</dt>
+    <dd><p>An enumerable collection of displays.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays*"></a>
+
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays__1" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays``1">
   GetDisplays&lt;T&gt;()
   
   </h3>
@@ -588,7 +657,7 @@ the display is below the primary display.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static abstract IEnumerable&lt;T&gt; GetDisplays&lt;T&gt;() where T : class, IDisplay</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; GetDisplays&lt;T&gt;() where T : class, IDisplay</code></pre>
   </div>
 
 
@@ -615,9 +684,42 @@ the display is below the primary display.</p>
 
 
 
-  <a id="Catalyst_Windowing_IDisplay_GetPrimaryDisplay_" data-uid="Catalyst.Windowing.IDisplay.GetPrimaryDisplay*"></a>
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay*"></a>
 
-  <h3 id="Catalyst_Windowing_IDisplay_GetPrimaryDisplay__1" data-uid="Catalyst.Windowing.IDisplay.GetPrimaryDisplay``1">
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay">
+  GetPrimaryDisplay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Queries the system for the primary display.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GlfwDisplay? GetPrimaryDisplay()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Windowing.Glfw3.GlfwDisplay.html">GlfwDisplay</a></dt>
+    <dd><p>The primary display, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if one could not be determined.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay_" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay*"></a>
+
+  <h3 id="Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay__1" data-uid="Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay``1">
   GetPrimaryDisplay&lt;T&gt;()
   
   </h3>
@@ -627,7 +729,7 @@ the display is below the primary display.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static abstract T? GetPrimaryDisplay&lt;T&gt;() where T : class, IDisplay</code></pre>
+    <pre><code class="lang-csharp hljs">public static T? GetPrimaryDisplay&lt;T&gt;() where T : class, IDisplay</code></pre>
   </div>
 
 
@@ -658,7 +760,7 @@ the display is below the primary display.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Windowing_IDisplay.md&amp;value=---%0Auid%3A%20Catalyst.Windowing.IDisplay%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Windowing_Glfw3_GlfwDisplay.md&amp;value=---%0Auid%3A%20Catalyst.Windowing.Glfw3.GlfwDisplay%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
         </div>
 
 
