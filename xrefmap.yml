@@ -1267,22 +1267,6 @@ references:
   isSpec: "True"
   fullName: Catalyst.Windowing.Glfw3.Glfw3.Dispose
   nameWithType: Glfw3.Dispose
-- uid: Catalyst.Windowing.Glfw3.Glfw3.Finalize
-  name: ~Glfw3()
-  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Finalize
-  commentId: M:Catalyst.Windowing.Glfw3.Glfw3.Finalize
-  name.vb: ''
-  fullName: Catalyst.Windowing.Glfw3.Glfw3.~Glfw3()
-  fullName.vb: ''
-  nameWithType: Glfw3.~Glfw3()
-  nameWithType.vb: ''
-- uid: Catalyst.Windowing.Glfw3.Glfw3.Finalize*
-  name: ~Glfw3
-  href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_Finalize_
-  commentId: Overload:Catalyst.Windowing.Glfw3.Glfw3.Finalize
-  isSpec: "True"
-  fullName: Catalyst.Windowing.Glfw3.Glfw3.~Glfw3
-  nameWithType: Glfw3.~Glfw3
 - uid: Catalyst.Windowing.Glfw3.Glfw3.GetInstance
   name: GetInstance()
   href: api/Catalyst.Windowing.Glfw3.Glfw3.html#Catalyst_Windowing_Glfw3_Glfw3_GetInstance
@@ -1328,15 +1312,6 @@ references:
   isSpec: "True"
   fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays
   nameWithType: GlfwDisplay.GetDisplays
-- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays``1
-  name: GetDisplays<T>()
-  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetDisplays__1
-  commentId: M:Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays``1
-  name.vb: GetDisplays(Of T)()
-  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays<T>()
-  fullName.vb: Catalyst.Windowing.Glfw3.GlfwDisplay.GetDisplays(Of T)()
-  nameWithType: GlfwDisplay.GetDisplays<T>()
-  nameWithType.vb: GlfwDisplay.GetDisplays(Of T)()
 - uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay
   name: GetPrimaryDisplay()
   href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay
@@ -1350,15 +1325,6 @@ references:
   isSpec: "True"
   fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay
   nameWithType: GlfwDisplay.GetPrimaryDisplay
-- uid: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay``1
-  name: GetPrimaryDisplay<T>()
-  href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_GetPrimaryDisplay__1
-  commentId: M:Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay``1
-  name.vb: GetPrimaryDisplay(Of T)()
-  fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay<T>()
-  fullName.vb: Catalyst.Windowing.Glfw3.GlfwDisplay.GetPrimaryDisplay(Of T)()
-  nameWithType: GlfwDisplay.GetPrimaryDisplay<T>()
-  nameWithType.vb: GlfwDisplay.GetPrimaryDisplay(Of T)()
 - uid: Catalyst.Windowing.Glfw3.GlfwDisplay.Height
   name: Height
   href: api/Catalyst.Windowing.Glfw3.GlfwDisplay.html#Catalyst_Windowing_Glfw3_GlfwDisplay_Height
