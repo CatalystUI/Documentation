@@ -68,30 +68,156 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Catalyst.Common.INativeApi-1.yml",
+      "source_relative_path": "api/Catalyst.Mathematics.Geometry.Angle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Catalyst.Common.INativeApi-1.html"
+          "relative_path": "api/Catalyst.Mathematics.Geometry.Angle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Catalyst.Common.INativeApi<T>",
-      "Summary": "<p sourcefile=\"api/Catalyst.Common.INativeApi-1.yml\" sourcestartlinenumber=\"1\">A common contract for native API access in CatalystUI.</p>\n"
+      "Title": "Catalyst.Mathematics.Geometry.Angle",
+      "Summary": "<p sourcefile=\"api/Catalyst.Mathematics.Geometry.Angle.yml\" sourcestartlinenumber=\"1\">A programmatic representation of an angle.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Catalyst.Common.yml",
+      "source_relative_path": "api/Catalyst.Mathematics.Geometry.Quadrant.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Catalyst.Common.html"
+          "relative_path": "api/Catalyst.Mathematics.Geometry.Quadrant.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Catalyst.Common",
+      "Title": "Catalyst.Mathematics.Geometry.Quadrant",
+      "Summary": "<p sourcefile=\"api/Catalyst.Mathematics.Geometry.Quadrant.yml\" sourcestartlinenumber=\"1\">A list of quadrants in a Cartesian coordinate system.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Mathematics.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Mathematics.Geometry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Mathematics.Geometry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.CommonNative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.CommonNative.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native.CommonNative",
+      "Summary": "<p sourcefile=\"api/Catalyst.Native.CommonNative.yml\" sourcestartlinenumber=\"1\">Native processing which is common to all platforms.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.INativeApi-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.INativeApi-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native.INativeApi<T>",
+      "Summary": "<p sourcefile=\"api/Catalyst.Native.INativeApi-1.yml\" sourcestartlinenumber=\"1\">A common contract for native API access in CatalystUI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.INativeInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.INativeInterface.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native.INativeInterface",
+      "Summary": "<p sourcefile=\"api/Catalyst.Native.INativeInterface.yml\" sourcestartlinenumber=\"1\">A common interface for native access in CatalystUI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.NativeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.NativeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native.NativeException",
+      "Summary": "<p sourcefile=\"api/Catalyst.Native.NativeException.yml\" sourcestartlinenumber=\"1\">Represents an error that occurs during native operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.NativePlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.NativePlatform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native.NativePlatform",
+      "Summary": "<p sourcefile=\"api/Catalyst.Native.NativePlatform.yml\" sourcestartlinenumber=\"1\">A list of supported native platforms in CatalystUI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.macOS.macOSNative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.macOS.macOSNative.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native.macOS.macOSNative",
+      "Summary": "<p sourcefile=\"api/Catalyst.Native.macOS.macOSNative.yml\" sourcestartlinenumber=\"1\">Native interface implementation for macOS.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.macOS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.macOS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native.macOS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Native.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Native.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Native",
       "Summary": null
     },
     {
@@ -180,6 +306,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Windowing.DisplayOrientationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Windowing.DisplayOrientationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Windowing.DisplayOrientationExtensions",
+      "Summary": "<p sourcefile=\"api/Catalyst.Windowing.DisplayOrientationExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Catalyst.Windowing.DisplayOrientation\" data-throw-if-not-resolved=\"false\"></xref> enum.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Catalyst.Windowing.Glfw3.Glfw3.yml",
       "output": {
         ".html": {
@@ -205,6 +345,34 @@
       "IsMRef": true,
       "Title": "Catalyst.Windowing.Glfw3.GlfwDisplay",
       "Summary": "<p sourcefile=\"api/Catalyst.Windowing.Glfw3.GlfwDisplay.yml\" sourcestartlinenumber=\"1\">An implementation of <xref href=\"Catalyst.Windowing.IDisplay\" data-throw-if-not-resolved=\"false\"></xref> using the GLFW 3 windowing library.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Windowing.Glfw3.Native.GlfwNative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Windowing.Glfw3.Native.GlfwNative",
+      "Summary": "<p sourcefile=\"api/Catalyst.Windowing.Glfw3.Native.GlfwNative.yml\" sourcestartlinenumber=\"1\">Defines a platform abstraction layer for GLFW native functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Catalyst.Windowing.Glfw3.Native.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Catalyst.Windowing.Glfw3.Native.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Catalyst.Windowing.Glfw3.Native",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

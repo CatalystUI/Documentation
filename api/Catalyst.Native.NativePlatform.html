@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface INativeApi&lt;T&gt; | CatalystUI </title>
+      <title>Enum NativePlatform | CatalystUI </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface INativeApi&lt;T&gt; | CatalystUI ">
+      <meta name="title" content="Enum NativePlatform | CatalystUI ">
       
-      <meta name="description" content="A common contract for native API access in CatalystUI.">
+      <meta name="description" content="A list of supported native platforms in CatalystUI.">
       <link rel="icon" href="../resources/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Common_INativeApi_1.md&amp;value=---%0Auid%3A%20Catalyst.Common.INativeApi%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Native_NativePlatform.md&amp;value=---%0Auid%3A%20Catalyst.Native.NativePlatform%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,94 +84,63 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Catalyst.Common.INativeApi`1">
+        <article data-uid="Catalyst.Native.NativePlatform">
 
 
 
-  <h1 id="Catalyst_Common_INativeApi_1" data-uid="Catalyst.Common.INativeApi`1" class="text-break">
-Interface INativeApi&lt;T&gt;  
+
+  <h1 id="Catalyst_Native_NativePlatform" data-uid="Catalyst.Native.NativePlatform" class="text-break">
+Enum NativePlatform  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Catalyst.html">Catalyst</a>.<a class="xref" href="Catalyst.Common.html">Common</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>CatalystUI.Core.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Catalyst.html">Catalyst</a>.<a class="xref" href="Catalyst.Native.html">Native</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CatalystUI.Native.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A common contract for native API access in CatalystUI.</p>
+  <div class="markdown summary"><p>A list of supported native platforms in CatalystUI.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INativeApi&lt;out T&gt; : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public enum NativePlatform</code></pre>
   </div>
 
 
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The type of the native API.</p>
-</dd>
-  </dl>
-
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">IDisposable.Dispose()</a>
-    </div>
-  </dd></dl>
 
 
 
 
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 id="fields">Fields
 </h2>
-
-
-  <a id="Catalyst_Common_INativeApi_1_Api_" data-uid="Catalyst.Common.INativeApi`1.Api*"></a>
-
-  <h3 id="Catalyst_Common_INativeApi_1_Api" data-uid="Catalyst.Common.INativeApi`1.Api">
-  Api
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Fetches the native API instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T Api { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd><p>The native API instance.</p>
+    <dt id="Catalyst_Native_NativePlatform_Common"><code>Common = 0</code></dt>
+  
+  <dd><p>Common native processing, shared across all platforms.</p>
+</dd>
+    <dt id="Catalyst_Native_NativePlatform_Windows"><code>Windows = 1</code></dt>
+  
+  <dd><p>The Windows platform.</p>
+</dd>
+    <dt id="Catalyst_Native_NativePlatform_macOS"><code>macOS = 2</code></dt>
+  
+  <dd><p>The macOS platform.</p>
+</dd>
+    <dt id="Catalyst_Native_NativePlatform_Linux"><code>Linux = 3</code></dt>
+  
+  <dd><p>The Linux platform.</p>
 </dd>
   </dl>
-
-
-
-
-
-
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Common_INativeApi_1.md&amp;value=---%0Auid%3A%20Catalyst.Common.INativeApi%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Native_NativePlatform.md&amp;value=---%0Auid%3A%20Catalyst.Native.NativePlatform%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
         </div>
 
 

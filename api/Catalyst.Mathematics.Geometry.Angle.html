@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct Angle | CatalystUI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct Angle | CatalystUI ">
+      
+      <meta name="description" content="A programmatic representation of an angle.">
+      <link rel="icon" href="../resources/favicon.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Mathematics_Geometry_Angle.md&amp;value=---%0Auid%3A%20Catalyst.Mathematics.Geometry.Angle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../resources/icon.svg" alt="CatalystUI">
+            CatalystUI
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Catalyst.Mathematics.Geometry.Angle">
+
+
+
+  <h1 id="Catalyst_Mathematics_Geometry_Angle" data-uid="Catalyst.Mathematics.Geometry.Angle" class="text-break">
+Struct Angle  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Catalyst.html">Catalyst</a>.<a class="xref" href="Catalyst.Mathematics.html">Mathematics</a>.<a class="xref" href="Catalyst.Mathematics.Geometry.html">Geometry</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CatalystUI.Mathematics.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A programmatic representation of an angle.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly record struct Angle : IEquatable&lt;Angle&gt;</code></pre>
+  </div>
+
+
+
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Catalyst.Windowing.DisplayOrientationExtensions.html#Catalyst_Windowing_DisplayOrientationExtensions_ToOrientation_Catalyst_Mathematics_Geometry_Angle_">DisplayOrientationExtensions.ToOrientation(Angle)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_Degrees_" data-uid="Catalyst.Mathematics.Geometry.Angle.Degrees*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_Degrees" data-uid="Catalyst.Mathematics.Geometry.Angle.Degrees">
+  Degrees
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the angle in degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Degrees { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in degrees.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_Gradians_" data-uid="Catalyst.Mathematics.Geometry.Angle.Gradians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_Gradians" data-uid="Catalyst.Mathematics.Geometry.Angle.Gradians">
+  Gradians
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the angle in gradians (also known as gon).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Gradians { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle is gradians (gon).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_Radians_" data-uid="Catalyst.Mathematics.Geometry.Angle.Radians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_Radians" data-uid="Catalyst.Mathematics.Geometry.Angle.Radians">
+  Radians
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the angle in radians.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Radians { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in radians.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_DegreesToGradians_" data-uid="Catalyst.Mathematics.Geometry.Angle.DegreesToGradians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_DegreesToGradians_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.DegreesToGradians(System.Double)">
+  DegreesToGradians(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from degrees to gradians (gon).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DegreesToGradians(double degrees)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>degrees</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in degrees.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in gradians.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_DegreesToRadians_" data-uid="Catalyst.Mathematics.Geometry.Angle.DegreesToRadians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_DegreesToRadians_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.DegreesToRadians(System.Double)">
+  DegreesToRadians(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from degrees to radians.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DegreesToRadians(double degrees)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>degrees</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in degrees.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in radians.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_FromDegrees_" data-uid="Catalyst.Mathematics.Geometry.Angle.FromDegrees*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_FromDegrees_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.FromDegrees(System.Double)">
+  FromDegrees(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from degrees to an <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle FromDegrees(double degrees)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>degrees</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in degrees.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>An <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a> instance representing the angle in degrees.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_FromGradians_" data-uid="Catalyst.Mathematics.Geometry.Angle.FromGradians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_FromGradians_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.FromGradians(System.Double)">
+  FromGradians(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from gradians (gon) to an <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle FromGradians(double gradians)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gradians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in gradians (gon).</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>An <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a> instance representing the angle in gradians.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_FromRadians_" data-uid="Catalyst.Mathematics.Geometry.Angle.FromRadians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_FromRadians_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.FromRadians(System.Double)">
+  FromRadians(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from radians to an <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle FromRadians(double radians)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in radians.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>An <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a> instance representing the angle in radians.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_GradiansToDegrees_" data-uid="Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_GradiansToDegrees_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees(System.Double)">
+  GradiansToDegrees(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from gradians (gon) to degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GradiansToDegrees(double gradians)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gradians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in gradians.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in degrees.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_GradiansToRadians_" data-uid="Catalyst.Mathematics.Geometry.Angle.GradiansToRadians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_GradiansToRadians_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.GradiansToRadians(System.Double)">
+  GradiansToRadians(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from gradians (gon) to radians.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GradiansToRadians(double gradians)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gradians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in gradians.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in radians.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_Normalize_" data-uid="Catalyst.Mathematics.Geometry.Angle.Normalize*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_Normalize" data-uid="Catalyst.Mathematics.Geometry.Angle.Normalize">
+  Normalize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Normalizes the angle to a value between 0 and 2π radians (0 and 360 degrees).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle Normalize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The normalized angle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_RadiansToDegrees_" data-uid="Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_RadiansToDegrees_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees(System.Double)">
+  RadiansToDegrees(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from radians to degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double RadiansToDegrees(double radians)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in radians.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in degrees.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_RadiansToGradians_" data-uid="Catalyst.Mathematics.Geometry.Angle.RadiansToGradians*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_RadiansToGradians_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.RadiansToGradians(System.Double)">
+  RadiansToGradians(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an angle from radians to gradians (gon).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double RadiansToGradians(double radians)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in radians.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The angle in gradians.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_ToQuadrant_" data-uid="Catalyst.Mathematics.Geometry.Angle.ToQuadrant*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_ToQuadrant" data-uid="Catalyst.Mathematics.Geometry.Angle.ToQuadrant">
+  ToQuadrant()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the quadrant of the angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quadrant ToQuadrant()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Quadrant.html">Quadrant</a></dt>
+    <dd><p>The quadrant of the angle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_ToString_" data-uid="Catalyst.Mathematics.Geometry.Angle.ToString*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_ToString" data-uid="Catalyst.Mathematics.Geometry.Angle.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the fully qualified type name of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The fully qualified type name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_Addition_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Addition*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_Addition_Catalyst_Mathematics_Geometry_Angle_Catalyst_Mathematics_Geometry_Angle_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Addition(Catalyst.Mathematics.Geometry.Angle,Catalyst.Mathematics.Geometry.Angle)">
+  operator +(Angle, Angle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds two angles together, resulting in a new angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator +(Angle left, Angle right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The first angle to add.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The second angle to add.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>A new angle that is the sum of the two angles.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_Decrement_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Decrement*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_Decrement_Catalyst_Mathematics_Geometry_Angle_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Decrement(Catalyst.Mathematics.Geometry.Angle)">
+  operator --(Angle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decrements the angle by 1 degree (approximately 0.0174533 radians).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator --(Angle angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to decrement.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>A new angle instance decremented by 1 degree.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_Division_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Division*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_Division_Catalyst_Mathematics_Geometry_Angle_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Division(Catalyst.Mathematics.Geometry.Angle,System.Double)">
+  operator /(Angle, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Divides an angle by a scalar value, resulting in a new angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator /(Angle angle, double scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to divide.</p>
+</dd>
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The scalar value to divide the angle by.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>A new angle that is the quotient of the angle and the scalar.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_Increment_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Increment*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_Increment_Catalyst_Mathematics_Geometry_Angle_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Increment(Catalyst.Mathematics.Geometry.Angle)">
+  operator ++(Angle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Increments the angle by 1 degree (approximately 0.0174533 radians).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator ++(Angle angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to increment.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>A new angle instance incremented by 1 degree.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_Modulus_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Modulus*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_Modulus_Catalyst_Mathematics_Geometry_Angle_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Modulus(Catalyst.Mathematics.Geometry.Angle,System.Double)">
+  operator %(Angle, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modulo operation on an angle with a scalar value, resulting in a new angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator %(Angle angle, double scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to apply the modulo operation on.</p>
+</dd>
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The scalar value to apply the modulo operation with.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>A new angle that is the result of the modulo operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_Multiply_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Multiply*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_Multiply_Catalyst_Mathematics_Geometry_Angle_System_Double_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Multiply(Catalyst.Mathematics.Geometry.Angle,System.Double)">
+  operator *(Angle, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies an angle by a scalar value, resulting in a new angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator *(Angle angle, double scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to multiply.</p>
+</dd>
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The scalar value to multiply the angle by.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>A new angle that is the product of the angle and the scalar.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_Subtraction_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Subtraction*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_Subtraction_Catalyst_Mathematics_Geometry_Angle_Catalyst_Mathematics_Geometry_Angle_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_Subtraction(Catalyst.Mathematics.Geometry.Angle,Catalyst.Mathematics.Geometry.Angle)">
+  operator -(Angle, Angle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Subtracts one angle from another, resulting in a new angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator -(Angle left, Angle right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to subtract from.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to subtract.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>A new angle that is the difference of the two angles.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_UnaryNegation_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_UnaryNegation*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_UnaryNegation_Catalyst_Mathematics_Geometry_Angle_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_UnaryNegation(Catalyst.Mathematics.Geometry.Angle)">
+  operator -(Angle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the negated value of the operand angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator -(Angle angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to negate.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The negated angle instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Catalyst_Mathematics_Geometry_Angle_op_UnaryPlus_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_UnaryPlus*"></a>
+
+  <h3 id="Catalyst_Mathematics_Geometry_Angle_op_UnaryPlus_Catalyst_Mathematics_Geometry_Angle_" data-uid="Catalyst.Mathematics.Geometry.Angle.op_UnaryPlus(Catalyst.Mathematics.Geometry.Angle)">
+  operator +(Angle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the value of the operand angle without modification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle operator +(Angle angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The angle to return.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Catalyst.Mathematics.Geometry.Angle.html">Angle</a></dt>
+    <dd><p>The same angle instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/CatalystUI/Documentation/new/main/apiSpec/new?filename=Catalyst_Mathematics_Geometry_Angle.md&amp;value=---%0Auid%3A%20Catalyst.Mathematics.Geometry.Angle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © 2025 FireController#1847 — All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

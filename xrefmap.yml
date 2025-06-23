@@ -693,38 +693,673 @@ references:
   fullName.vb: Catalyst.Collections.StaticArrayStack(Of T).Push
   nameWithType: StaticArrayStack<T>.Push
   nameWithType.vb: StaticArrayStack(Of T).Push
-- uid: Catalyst.Common
-  name: Catalyst.Common
-  href: api/Catalyst.Common.html
-  commentId: N:Catalyst.Common
-  fullName: Catalyst.Common
-  nameWithType: Catalyst.Common
-- uid: Catalyst.Common.INativeApi`1
+- uid: Catalyst.Mathematics.Geometry
+  name: Catalyst.Mathematics.Geometry
+  href: api/Catalyst.Mathematics.Geometry.html
+  commentId: N:Catalyst.Mathematics.Geometry
+  fullName: Catalyst.Mathematics.Geometry
+  nameWithType: Catalyst.Mathematics.Geometry
+- uid: Catalyst.Mathematics.Geometry.Angle
+  name: Angle
+  href: api/Catalyst.Mathematics.Geometry.Angle.html
+  commentId: T:Catalyst.Mathematics.Geometry.Angle
+  fullName: Catalyst.Mathematics.Geometry.Angle
+  nameWithType: Angle
+- uid: Catalyst.Mathematics.Geometry.Angle.Degrees
+  name: Degrees
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Degrees
+  commentId: P:Catalyst.Mathematics.Geometry.Angle.Degrees
+  fullName: Catalyst.Mathematics.Geometry.Angle.Degrees
+  nameWithType: Angle.Degrees
+- uid: Catalyst.Mathematics.Geometry.Angle.Degrees*
+  name: Degrees
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Degrees_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.Degrees
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.Degrees
+  nameWithType: Angle.Degrees
+- uid: Catalyst.Mathematics.Geometry.Angle.DegreesToGradians(System.Double)
+  name: DegreesToGradians(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_DegreesToGradians_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.DegreesToGradians(System.Double)
+  name.vb: DegreesToGradians(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.DegreesToGradians(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.DegreesToGradians(Double)
+  nameWithType: Angle.DegreesToGradians(double)
+  nameWithType.vb: Angle.DegreesToGradians(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.DegreesToGradians*
+  name: DegreesToGradians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_DegreesToGradians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.DegreesToGradians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.DegreesToGradians
+  nameWithType: Angle.DegreesToGradians
+- uid: Catalyst.Mathematics.Geometry.Angle.DegreesToRadians(System.Double)
+  name: DegreesToRadians(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_DegreesToRadians_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.DegreesToRadians(System.Double)
+  name.vb: DegreesToRadians(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.DegreesToRadians(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.DegreesToRadians(Double)
+  nameWithType: Angle.DegreesToRadians(double)
+  nameWithType.vb: Angle.DegreesToRadians(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.DegreesToRadians*
+  name: DegreesToRadians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_DegreesToRadians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.DegreesToRadians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.DegreesToRadians
+  nameWithType: Angle.DegreesToRadians
+- uid: Catalyst.Mathematics.Geometry.Angle.FromDegrees(System.Double)
+  name: FromDegrees(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_FromDegrees_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.FromDegrees(System.Double)
+  name.vb: FromDegrees(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.FromDegrees(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.FromDegrees(Double)
+  nameWithType: Angle.FromDegrees(double)
+  nameWithType.vb: Angle.FromDegrees(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.FromDegrees*
+  name: FromDegrees
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_FromDegrees_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.FromDegrees
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.FromDegrees
+  nameWithType: Angle.FromDegrees
+- uid: Catalyst.Mathematics.Geometry.Angle.FromGradians(System.Double)
+  name: FromGradians(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_FromGradians_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.FromGradians(System.Double)
+  name.vb: FromGradians(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.FromGradians(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.FromGradians(Double)
+  nameWithType: Angle.FromGradians(double)
+  nameWithType.vb: Angle.FromGradians(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.FromGradians*
+  name: FromGradians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_FromGradians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.FromGradians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.FromGradians
+  nameWithType: Angle.FromGradians
+- uid: Catalyst.Mathematics.Geometry.Angle.FromRadians(System.Double)
+  name: FromRadians(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_FromRadians_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.FromRadians(System.Double)
+  name.vb: FromRadians(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.FromRadians(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.FromRadians(Double)
+  nameWithType: Angle.FromRadians(double)
+  nameWithType.vb: Angle.FromRadians(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.FromRadians*
+  name: FromRadians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_FromRadians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.FromRadians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.FromRadians
+  nameWithType: Angle.FromRadians
+- uid: Catalyst.Mathematics.Geometry.Angle.Gradians
+  name: Gradians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Gradians
+  commentId: P:Catalyst.Mathematics.Geometry.Angle.Gradians
+  fullName: Catalyst.Mathematics.Geometry.Angle.Gradians
+  nameWithType: Angle.Gradians
+- uid: Catalyst.Mathematics.Geometry.Angle.Gradians*
+  name: Gradians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Gradians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.Gradians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.Gradians
+  nameWithType: Angle.Gradians
+- uid: Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees(System.Double)
+  name: GradiansToDegrees(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_GradiansToDegrees_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees(System.Double)
+  name.vb: GradiansToDegrees(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees(Double)
+  nameWithType: Angle.GradiansToDegrees(double)
+  nameWithType.vb: Angle.GradiansToDegrees(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees*
+  name: GradiansToDegrees
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_GradiansToDegrees_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.GradiansToDegrees
+  nameWithType: Angle.GradiansToDegrees
+- uid: Catalyst.Mathematics.Geometry.Angle.GradiansToRadians(System.Double)
+  name: GradiansToRadians(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_GradiansToRadians_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.GradiansToRadians(System.Double)
+  name.vb: GradiansToRadians(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.GradiansToRadians(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.GradiansToRadians(Double)
+  nameWithType: Angle.GradiansToRadians(double)
+  nameWithType.vb: Angle.GradiansToRadians(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.GradiansToRadians*
+  name: GradiansToRadians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_GradiansToRadians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.GradiansToRadians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.GradiansToRadians
+  nameWithType: Angle.GradiansToRadians
+- uid: Catalyst.Mathematics.Geometry.Angle.Normalize
+  name: Normalize()
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Normalize
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.Normalize
+  fullName: Catalyst.Mathematics.Geometry.Angle.Normalize()
+  nameWithType: Angle.Normalize()
+- uid: Catalyst.Mathematics.Geometry.Angle.Normalize*
+  name: Normalize
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Normalize_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.Normalize
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.Normalize
+  nameWithType: Angle.Normalize
+- uid: Catalyst.Mathematics.Geometry.Angle.Radians
+  name: Radians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Radians
+  commentId: P:Catalyst.Mathematics.Geometry.Angle.Radians
+  fullName: Catalyst.Mathematics.Geometry.Angle.Radians
+  nameWithType: Angle.Radians
+- uid: Catalyst.Mathematics.Geometry.Angle.Radians*
+  name: Radians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_Radians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.Radians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.Radians
+  nameWithType: Angle.Radians
+- uid: Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees(System.Double)
+  name: RadiansToDegrees(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_RadiansToDegrees_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees(System.Double)
+  name.vb: RadiansToDegrees(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees(Double)
+  nameWithType: Angle.RadiansToDegrees(double)
+  nameWithType.vb: Angle.RadiansToDegrees(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees*
+  name: RadiansToDegrees
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_RadiansToDegrees_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.RadiansToDegrees
+  nameWithType: Angle.RadiansToDegrees
+- uid: Catalyst.Mathematics.Geometry.Angle.RadiansToGradians(System.Double)
+  name: RadiansToGradians(double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_RadiansToGradians_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.RadiansToGradians(System.Double)
+  name.vb: RadiansToGradians(Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.RadiansToGradians(double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.RadiansToGradians(Double)
+  nameWithType: Angle.RadiansToGradians(double)
+  nameWithType.vb: Angle.RadiansToGradians(Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.RadiansToGradians*
+  name: RadiansToGradians
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_RadiansToGradians_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.RadiansToGradians
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.RadiansToGradians
+  nameWithType: Angle.RadiansToGradians
+- uid: Catalyst.Mathematics.Geometry.Angle.ToQuadrant
+  name: ToQuadrant()
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_ToQuadrant
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.ToQuadrant
+  fullName: Catalyst.Mathematics.Geometry.Angle.ToQuadrant()
+  nameWithType: Angle.ToQuadrant()
+- uid: Catalyst.Mathematics.Geometry.Angle.ToQuadrant*
+  name: ToQuadrant
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_ToQuadrant_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.ToQuadrant
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.ToQuadrant
+  nameWithType: Angle.ToQuadrant
+- uid: Catalyst.Mathematics.Geometry.Angle.ToString
+  name: ToString()
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_ToString
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.ToString
+  fullName: Catalyst.Mathematics.Geometry.Angle.ToString()
+  nameWithType: Angle.ToString()
+- uid: Catalyst.Mathematics.Geometry.Angle.ToString*
+  name: ToString
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_ToString_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.ToString
+  isSpec: "True"
+  fullName: Catalyst.Mathematics.Geometry.Angle.ToString
+  nameWithType: Angle.ToString
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Addition(Catalyst.Mathematics.Geometry.Angle,Catalyst.Mathematics.Geometry.Angle)
+  name: operator +(Angle, Angle)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Addition_Catalyst_Mathematics_Geometry_Angle_Catalyst_Mathematics_Geometry_Angle_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_Addition(Catalyst.Mathematics.Geometry.Angle,Catalyst.Mathematics.Geometry.Angle)
+  name.vb: +(Angle, Angle)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator +(Catalyst.Mathematics.Geometry.Angle, Catalyst.Mathematics.Geometry.Angle)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.+(Catalyst.Mathematics.Geometry.Angle, Catalyst.Mathematics.Geometry.Angle)
+  nameWithType: Angle.operator +(Angle, Angle)
+  nameWithType.vb: Angle.+(Angle, Angle)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Addition*
+  name: operator +
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Addition_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator +
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.+
+  nameWithType: Angle.operator +
+  nameWithType.vb: Angle.+
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Decrement(Catalyst.Mathematics.Geometry.Angle)
+  name: operator --(Angle)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Decrement_Catalyst_Mathematics_Geometry_Angle_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_Decrement(Catalyst.Mathematics.Geometry.Angle)
+  name.vb: op_Decrement(Angle)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator --(Catalyst.Mathematics.Geometry.Angle)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.op_Decrement(Catalyst.Mathematics.Geometry.Angle)
+  nameWithType: Angle.operator --(Angle)
+  nameWithType.vb: Angle.op_Decrement(Angle)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Decrement*
+  name: operator --
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Decrement_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_Decrement
+  isSpec: "True"
+  name.vb: op_Decrement
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator --
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.op_Decrement
+  nameWithType: Angle.operator --
+  nameWithType.vb: Angle.op_Decrement
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Division(Catalyst.Mathematics.Geometry.Angle,System.Double)
+  name: operator /(Angle, double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Division_Catalyst_Mathematics_Geometry_Angle_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_Division(Catalyst.Mathematics.Geometry.Angle,System.Double)
+  name.vb: /(Angle, Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator /(Catalyst.Mathematics.Geometry.Angle, double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle./(Catalyst.Mathematics.Geometry.Angle, Double)
+  nameWithType: Angle.operator /(Angle, double)
+  nameWithType.vb: Angle./(Angle, Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Division*
+  name: operator /
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Division_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_Division
+  isSpec: "True"
+  name.vb: /
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator /
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle./
+  nameWithType: Angle.operator /
+  nameWithType.vb: Angle./
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Increment(Catalyst.Mathematics.Geometry.Angle)
+  name: operator ++(Angle)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Increment_Catalyst_Mathematics_Geometry_Angle_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_Increment(Catalyst.Mathematics.Geometry.Angle)
+  name.vb: op_Increment(Angle)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator ++(Catalyst.Mathematics.Geometry.Angle)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.op_Increment(Catalyst.Mathematics.Geometry.Angle)
+  nameWithType: Angle.operator ++(Angle)
+  nameWithType.vb: Angle.op_Increment(Angle)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Increment*
+  name: operator ++
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Increment_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_Increment
+  isSpec: "True"
+  name.vb: op_Increment
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator ++
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.op_Increment
+  nameWithType: Angle.operator ++
+  nameWithType.vb: Angle.op_Increment
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Modulus(Catalyst.Mathematics.Geometry.Angle,System.Double)
+  name: operator %(Angle, double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Modulus_Catalyst_Mathematics_Geometry_Angle_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_Modulus(Catalyst.Mathematics.Geometry.Angle,System.Double)
+  name.vb: Mod(Angle, Double)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator %(Catalyst.Mathematics.Geometry.Angle, double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.Mod(Catalyst.Mathematics.Geometry.Angle, Double)
+  nameWithType: Angle.operator %(Angle, double)
+  nameWithType.vb: Angle.Mod(Angle, Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Modulus*
+  name: operator %
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Modulus_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_Modulus
+  isSpec: "True"
+  name.vb: Mod
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator %
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.Mod
+  nameWithType: Angle.operator %
+  nameWithType.vb: Angle.Mod
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Multiply(Catalyst.Mathematics.Geometry.Angle,System.Double)
+  name: operator *(Angle, double)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Multiply_Catalyst_Mathematics_Geometry_Angle_System_Double_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_Multiply(Catalyst.Mathematics.Geometry.Angle,System.Double)
+  name.vb: '*(Angle, Double)'
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator *(Catalyst.Mathematics.Geometry.Angle, double)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.*(Catalyst.Mathematics.Geometry.Angle, Double)
+  nameWithType: Angle.operator *(Angle, double)
+  nameWithType.vb: Angle.*(Angle, Double)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Multiply*
+  name: operator *
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Multiply_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator *
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.*
+  nameWithType: Angle.operator *
+  nameWithType.vb: Angle.*
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Subtraction(Catalyst.Mathematics.Geometry.Angle,Catalyst.Mathematics.Geometry.Angle)
+  name: operator -(Angle, Angle)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Subtraction_Catalyst_Mathematics_Geometry_Angle_Catalyst_Mathematics_Geometry_Angle_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_Subtraction(Catalyst.Mathematics.Geometry.Angle,Catalyst.Mathematics.Geometry.Angle)
+  name.vb: -(Angle, Angle)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator -(Catalyst.Mathematics.Geometry.Angle, Catalyst.Mathematics.Geometry.Angle)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.-(Catalyst.Mathematics.Geometry.Angle, Catalyst.Mathematics.Geometry.Angle)
+  nameWithType: Angle.operator -(Angle, Angle)
+  nameWithType.vb: Angle.-(Angle, Angle)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_Subtraction*
+  name: operator -
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_Subtraction_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator -
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.-
+  nameWithType: Angle.operator -
+  nameWithType.vb: Angle.-
+- uid: Catalyst.Mathematics.Geometry.Angle.op_UnaryNegation(Catalyst.Mathematics.Geometry.Angle)
+  name: operator -(Angle)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_UnaryNegation_Catalyst_Mathematics_Geometry_Angle_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_UnaryNegation(Catalyst.Mathematics.Geometry.Angle)
+  name.vb: -(Angle)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator -(Catalyst.Mathematics.Geometry.Angle)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.-(Catalyst.Mathematics.Geometry.Angle)
+  nameWithType: Angle.operator -(Angle)
+  nameWithType.vb: Angle.-(Angle)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_UnaryNegation*
+  name: operator -
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_UnaryNegation_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_UnaryNegation
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator -
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.-
+  nameWithType: Angle.operator -
+  nameWithType.vb: Angle.-
+- uid: Catalyst.Mathematics.Geometry.Angle.op_UnaryPlus(Catalyst.Mathematics.Geometry.Angle)
+  name: operator +(Angle)
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_UnaryPlus_Catalyst_Mathematics_Geometry_Angle_
+  commentId: M:Catalyst.Mathematics.Geometry.Angle.op_UnaryPlus(Catalyst.Mathematics.Geometry.Angle)
+  name.vb: +(Angle)
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator +(Catalyst.Mathematics.Geometry.Angle)
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.+(Catalyst.Mathematics.Geometry.Angle)
+  nameWithType: Angle.operator +(Angle)
+  nameWithType.vb: Angle.+(Angle)
+- uid: Catalyst.Mathematics.Geometry.Angle.op_UnaryPlus*
+  name: operator +
+  href: api/Catalyst.Mathematics.Geometry.Angle.html#Catalyst_Mathematics_Geometry_Angle_op_UnaryPlus_
+  commentId: Overload:Catalyst.Mathematics.Geometry.Angle.op_UnaryPlus
+  isSpec: "True"
+  name.vb: +
+  fullName: Catalyst.Mathematics.Geometry.Angle.operator +
+  fullName.vb: Catalyst.Mathematics.Geometry.Angle.+
+  nameWithType: Angle.operator +
+  nameWithType.vb: Angle.+
+- uid: Catalyst.Mathematics.Geometry.Quadrant
+  name: Quadrant
+  href: api/Catalyst.Mathematics.Geometry.Quadrant.html
+  commentId: T:Catalyst.Mathematics.Geometry.Quadrant
+  fullName: Catalyst.Mathematics.Geometry.Quadrant
+  nameWithType: Quadrant
+- uid: Catalyst.Mathematics.Geometry.Quadrant.First
+  name: First
+  href: api/Catalyst.Mathematics.Geometry.Quadrant.html#Catalyst_Mathematics_Geometry_Quadrant_First
+  commentId: F:Catalyst.Mathematics.Geometry.Quadrant.First
+  fullName: Catalyst.Mathematics.Geometry.Quadrant.First
+  nameWithType: Quadrant.First
+- uid: Catalyst.Mathematics.Geometry.Quadrant.Fourth
+  name: Fourth
+  href: api/Catalyst.Mathematics.Geometry.Quadrant.html#Catalyst_Mathematics_Geometry_Quadrant_Fourth
+  commentId: F:Catalyst.Mathematics.Geometry.Quadrant.Fourth
+  fullName: Catalyst.Mathematics.Geometry.Quadrant.Fourth
+  nameWithType: Quadrant.Fourth
+- uid: Catalyst.Mathematics.Geometry.Quadrant.Second
+  name: Second
+  href: api/Catalyst.Mathematics.Geometry.Quadrant.html#Catalyst_Mathematics_Geometry_Quadrant_Second
+  commentId: F:Catalyst.Mathematics.Geometry.Quadrant.Second
+  fullName: Catalyst.Mathematics.Geometry.Quadrant.Second
+  nameWithType: Quadrant.Second
+- uid: Catalyst.Mathematics.Geometry.Quadrant.Third
+  name: Third
+  href: api/Catalyst.Mathematics.Geometry.Quadrant.html#Catalyst_Mathematics_Geometry_Quadrant_Third
+  commentId: F:Catalyst.Mathematics.Geometry.Quadrant.Third
+  fullName: Catalyst.Mathematics.Geometry.Quadrant.Third
+  nameWithType: Quadrant.Third
+- uid: Catalyst.Native
+  name: Catalyst.Native
+  href: api/Catalyst.Native.html
+  commentId: N:Catalyst.Native
+  fullName: Catalyst.Native
+  nameWithType: Catalyst.Native
+- uid: Catalyst.Native.CommonNative
+  name: CommonNative
+  href: api/Catalyst.Native.CommonNative.html
+  commentId: T:Catalyst.Native.CommonNative
+  fullName: Catalyst.Native.CommonNative
+  nameWithType: CommonNative
+- uid: Catalyst.Native.CommonNative.GetMonitorDescriptorFromEdid(System.Byte[]@)
+  name: GetMonitorDescriptorFromEdid(ref byte[])
+  href: api/Catalyst.Native.CommonNative.html#Catalyst_Native_CommonNative_GetMonitorDescriptorFromEdid_System_Byte____
+  commentId: M:Catalyst.Native.CommonNative.GetMonitorDescriptorFromEdid(System.Byte[]@)
+  name.vb: GetMonitorDescriptorFromEdid(Byte())
+  fullName: Catalyst.Native.CommonNative.GetMonitorDescriptorFromEdid(ref byte[])
+  fullName.vb: Catalyst.Native.CommonNative.GetMonitorDescriptorFromEdid(Byte())
+  nameWithType: CommonNative.GetMonitorDescriptorFromEdid(ref byte[])
+  nameWithType.vb: CommonNative.GetMonitorDescriptorFromEdid(Byte())
+- uid: Catalyst.Native.CommonNative.GetMonitorDescriptorFromEdid*
+  name: GetMonitorDescriptorFromEdid
+  href: api/Catalyst.Native.CommonNative.html#Catalyst_Native_CommonNative_GetMonitorDescriptorFromEdid_
+  commentId: Overload:Catalyst.Native.CommonNative.GetMonitorDescriptorFromEdid
+  isSpec: "True"
+  fullName: Catalyst.Native.CommonNative.GetMonitorDescriptorFromEdid
+  nameWithType: CommonNative.GetMonitorDescriptorFromEdid
+- uid: Catalyst.Native.CommonNative.GetMonitorManufacturerCodeFromEdid(System.Byte[]@)
+  name: GetMonitorManufacturerCodeFromEdid(ref byte[])
+  href: api/Catalyst.Native.CommonNative.html#Catalyst_Native_CommonNative_GetMonitorManufacturerCodeFromEdid_System_Byte____
+  commentId: M:Catalyst.Native.CommonNative.GetMonitorManufacturerCodeFromEdid(System.Byte[]@)
+  name.vb: GetMonitorManufacturerCodeFromEdid(Byte())
+  fullName: Catalyst.Native.CommonNative.GetMonitorManufacturerCodeFromEdid(ref byte[])
+  fullName.vb: Catalyst.Native.CommonNative.GetMonitorManufacturerCodeFromEdid(Byte())
+  nameWithType: CommonNative.GetMonitorManufacturerCodeFromEdid(ref byte[])
+  nameWithType.vb: CommonNative.GetMonitorManufacturerCodeFromEdid(Byte())
+- uid: Catalyst.Native.CommonNative.GetMonitorManufacturerCodeFromEdid*
+  name: GetMonitorManufacturerCodeFromEdid
+  href: api/Catalyst.Native.CommonNative.html#Catalyst_Native_CommonNative_GetMonitorManufacturerCodeFromEdid_
+  commentId: Overload:Catalyst.Native.CommonNative.GetMonitorManufacturerCodeFromEdid
+  isSpec: "True"
+  fullName: Catalyst.Native.CommonNative.GetMonitorManufacturerCodeFromEdid
+  nameWithType: CommonNative.GetMonitorManufacturerCodeFromEdid
+- uid: Catalyst.Native.CommonNative.Platform
+  name: Platform
+  href: api/Catalyst.Native.CommonNative.html#Catalyst_Native_CommonNative_Platform
+  commentId: P:Catalyst.Native.CommonNative.Platform
+  fullName: Catalyst.Native.CommonNative.Platform
+  nameWithType: CommonNative.Platform
+- uid: Catalyst.Native.CommonNative.Platform*
+  name: Platform
+  href: api/Catalyst.Native.CommonNative.html#Catalyst_Native_CommonNative_Platform_
+  commentId: Overload:Catalyst.Native.CommonNative.Platform
+  isSpec: "True"
+  fullName: Catalyst.Native.CommonNative.Platform
+  nameWithType: CommonNative.Platform
+- uid: Catalyst.Native.INativeApi`1
   name: INativeApi<T>
-  href: api/Catalyst.Common.INativeApi-1.html
-  commentId: T:Catalyst.Common.INativeApi`1
+  href: api/Catalyst.Native.INativeApi-1.html
+  commentId: T:Catalyst.Native.INativeApi`1
   name.vb: INativeApi(Of T)
-  fullName: Catalyst.Common.INativeApi<T>
-  fullName.vb: Catalyst.Common.INativeApi(Of T)
+  fullName: Catalyst.Native.INativeApi<T>
+  fullName.vb: Catalyst.Native.INativeApi(Of T)
   nameWithType: INativeApi<T>
   nameWithType.vb: INativeApi(Of T)
-- uid: Catalyst.Common.INativeApi`1.Api
+- uid: Catalyst.Native.INativeApi`1.Api
   name: Api
-  href: api/Catalyst.Common.INativeApi-1.html#Catalyst_Common_INativeApi_1_Api
-  commentId: P:Catalyst.Common.INativeApi`1.Api
-  fullName: Catalyst.Common.INativeApi<T>.Api
-  fullName.vb: Catalyst.Common.INativeApi(Of T).Api
+  href: api/Catalyst.Native.INativeApi-1.html#Catalyst_Native_INativeApi_1_Api
+  commentId: P:Catalyst.Native.INativeApi`1.Api
+  fullName: Catalyst.Native.INativeApi<T>.Api
+  fullName.vb: Catalyst.Native.INativeApi(Of T).Api
   nameWithType: INativeApi<T>.Api
   nameWithType.vb: INativeApi(Of T).Api
-- uid: Catalyst.Common.INativeApi`1.Api*
+- uid: Catalyst.Native.INativeApi`1.Api*
   name: Api
-  href: api/Catalyst.Common.INativeApi-1.html#Catalyst_Common_INativeApi_1_Api_
-  commentId: Overload:Catalyst.Common.INativeApi`1.Api
+  href: api/Catalyst.Native.INativeApi-1.html#Catalyst_Native_INativeApi_1_Api_
+  commentId: Overload:Catalyst.Native.INativeApi`1.Api
   isSpec: "True"
-  fullName: Catalyst.Common.INativeApi<T>.Api
-  fullName.vb: Catalyst.Common.INativeApi(Of T).Api
+  fullName: Catalyst.Native.INativeApi<T>.Api
+  fullName.vb: Catalyst.Native.INativeApi(Of T).Api
   nameWithType: INativeApi<T>.Api
   nameWithType.vb: INativeApi(Of T).Api
+- uid: Catalyst.Native.INativeInterface
+  name: INativeInterface
+  href: api/Catalyst.Native.INativeInterface.html
+  commentId: T:Catalyst.Native.INativeInterface
+  fullName: Catalyst.Native.INativeInterface
+  nameWithType: INativeInterface
+- uid: Catalyst.Native.INativeInterface.Platform
+  name: Platform
+  href: api/Catalyst.Native.INativeInterface.html#Catalyst_Native_INativeInterface_Platform
+  commentId: P:Catalyst.Native.INativeInterface.Platform
+  fullName: Catalyst.Native.INativeInterface.Platform
+  nameWithType: INativeInterface.Platform
+- uid: Catalyst.Native.INativeInterface.Platform*
+  name: Platform
+  href: api/Catalyst.Native.INativeInterface.html#Catalyst_Native_INativeInterface_Platform_
+  commentId: Overload:Catalyst.Native.INativeInterface.Platform
+  isSpec: "True"
+  fullName: Catalyst.Native.INativeInterface.Platform
+  nameWithType: INativeInterface.Platform
+- uid: Catalyst.Native.NativeException
+  name: NativeException
+  href: api/Catalyst.Native.NativeException.html
+  commentId: T:Catalyst.Native.NativeException
+  fullName: Catalyst.Native.NativeException
+  nameWithType: NativeException
+- uid: Catalyst.Native.NativeException.#ctor
+  name: NativeException()
+  href: api/Catalyst.Native.NativeException.html#Catalyst_Native_NativeException__ctor
+  commentId: M:Catalyst.Native.NativeException.#ctor
+  name.vb: New()
+  fullName: Catalyst.Native.NativeException.NativeException()
+  fullName.vb: Catalyst.Native.NativeException.New()
+  nameWithType: NativeException.NativeException()
+  nameWithType.vb: NativeException.New()
+- uid: Catalyst.Native.NativeException.#ctor(System.String)
+  name: NativeException(string)
+  href: api/Catalyst.Native.NativeException.html#Catalyst_Native_NativeException__ctor_System_String_
+  commentId: M:Catalyst.Native.NativeException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Catalyst.Native.NativeException.NativeException(string)
+  fullName.vb: Catalyst.Native.NativeException.New(String)
+  nameWithType: NativeException.NativeException(string)
+  nameWithType.vb: NativeException.New(String)
+- uid: Catalyst.Native.NativeException.#ctor(System.String,System.Exception)
+  name: NativeException(string, Exception)
+  href: api/Catalyst.Native.NativeException.html#Catalyst_Native_NativeException__ctor_System_String_System_Exception_
+  commentId: M:Catalyst.Native.NativeException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Catalyst.Native.NativeException.NativeException(string, System.Exception)
+  fullName.vb: Catalyst.Native.NativeException.New(String, System.Exception)
+  nameWithType: NativeException.NativeException(string, Exception)
+  nameWithType.vb: NativeException.New(String, Exception)
+- uid: Catalyst.Native.NativeException.#ctor*
+  name: NativeException
+  href: api/Catalyst.Native.NativeException.html#Catalyst_Native_NativeException__ctor_
+  commentId: Overload:Catalyst.Native.NativeException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Catalyst.Native.NativeException.NativeException
+  fullName.vb: Catalyst.Native.NativeException.New
+  nameWithType: NativeException.NativeException
+  nameWithType.vb: NativeException.New
+- uid: Catalyst.Native.NativePlatform
+  name: NativePlatform
+  href: api/Catalyst.Native.NativePlatform.html
+  commentId: T:Catalyst.Native.NativePlatform
+  fullName: Catalyst.Native.NativePlatform
+  nameWithType: NativePlatform
+- uid: Catalyst.Native.NativePlatform.Common
+  name: Common
+  href: api/Catalyst.Native.NativePlatform.html#Catalyst_Native_NativePlatform_Common
+  commentId: F:Catalyst.Native.NativePlatform.Common
+  fullName: Catalyst.Native.NativePlatform.Common
+  nameWithType: NativePlatform.Common
+- uid: Catalyst.Native.NativePlatform.Linux
+  name: Linux
+  href: api/Catalyst.Native.NativePlatform.html#Catalyst_Native_NativePlatform_Linux
+  commentId: F:Catalyst.Native.NativePlatform.Linux
+  fullName: Catalyst.Native.NativePlatform.Linux
+  nameWithType: NativePlatform.Linux
+- uid: Catalyst.Native.NativePlatform.Windows
+  name: Windows
+  href: api/Catalyst.Native.NativePlatform.html#Catalyst_Native_NativePlatform_Windows
+  commentId: F:Catalyst.Native.NativePlatform.Windows
+  fullName: Catalyst.Native.NativePlatform.Windows
+  nameWithType: NativePlatform.Windows
+- uid: Catalyst.Native.NativePlatform.macOS
+  name: macOS
+  href: api/Catalyst.Native.NativePlatform.html#Catalyst_Native_NativePlatform_macOS
+  commentId: F:Catalyst.Native.NativePlatform.macOS
+  fullName: Catalyst.Native.NativePlatform.macOS
+  nameWithType: NativePlatform.macOS
+- uid: Catalyst.Native.macOS
+  name: Catalyst.Native.macOS
+  href: api/Catalyst.Native.macOS.html
+  commentId: N:Catalyst.Native.macOS
+  fullName: Catalyst.Native.macOS
+  nameWithType: Catalyst.Native.macOS
+- uid: Catalyst.Native.macOS.macOSNative
+  name: macOSNative
+  href: api/Catalyst.Native.macOS.macOSNative.html
+  commentId: T:Catalyst.Native.macOS.macOSNative
+  fullName: Catalyst.Native.macOS.macOSNative
+  nameWithType: macOSNative
+- uid: Catalyst.Native.macOS.macOSNative.GetDisplayEDID(System.Int32)
+  name: GetDisplayEDID(int)
+  href: api/Catalyst.Native.macOS.macOSNative.html#Catalyst_Native_macOS_macOSNative_GetDisplayEDID_System_Int32_
+  commentId: M:Catalyst.Native.macOS.macOSNative.GetDisplayEDID(System.Int32)
+  name.vb: GetDisplayEDID(Integer)
+  fullName: Catalyst.Native.macOS.macOSNative.GetDisplayEDID(int)
+  fullName.vb: Catalyst.Native.macOS.macOSNative.GetDisplayEDID(Integer)
+  nameWithType: macOSNative.GetDisplayEDID(int)
+  nameWithType.vb: macOSNative.GetDisplayEDID(Integer)
+- uid: Catalyst.Native.macOS.macOSNative.GetDisplayEDID*
+  name: GetDisplayEDID
+  href: api/Catalyst.Native.macOS.macOSNative.html#Catalyst_Native_macOS_macOSNative_GetDisplayEDID_
+  commentId: Overload:Catalyst.Native.macOS.macOSNative.GetDisplayEDID
+  isSpec: "True"
+  fullName: Catalyst.Native.macOS.macOSNative.GetDisplayEDID
+  nameWithType: macOSNative.GetDisplayEDID
+- uid: Catalyst.Native.macOS.macOSNative.GetDisplayRotation(System.Int32)
+  name: GetDisplayRotation(int)
+  href: api/Catalyst.Native.macOS.macOSNative.html#Catalyst_Native_macOS_macOSNative_GetDisplayRotation_System_Int32_
+  commentId: M:Catalyst.Native.macOS.macOSNative.GetDisplayRotation(System.Int32)
+  name.vb: GetDisplayRotation(Integer)
+  fullName: Catalyst.Native.macOS.macOSNative.GetDisplayRotation(int)
+  fullName.vb: Catalyst.Native.macOS.macOSNative.GetDisplayRotation(Integer)
+  nameWithType: macOSNative.GetDisplayRotation(int)
+  nameWithType.vb: macOSNative.GetDisplayRotation(Integer)
+- uid: Catalyst.Native.macOS.macOSNative.GetDisplayRotation*
+  name: GetDisplayRotation
+  href: api/Catalyst.Native.macOS.macOSNative.html#Catalyst_Native_macOS_macOSNative_GetDisplayRotation_
+  commentId: Overload:Catalyst.Native.macOS.macOSNative.GetDisplayRotation
+  isSpec: "True"
+  fullName: Catalyst.Native.macOS.macOSNative.GetDisplayRotation
+  nameWithType: macOSNative.GetDisplayRotation
+- uid: Catalyst.Native.macOS.macOSNative.Platform
+  name: Platform
+  href: api/Catalyst.Native.macOS.macOSNative.html#Catalyst_Native_macOS_macOSNative_Platform
+  commentId: P:Catalyst.Native.macOS.macOSNative.Platform
+  fullName: Catalyst.Native.macOS.macOSNative.Platform
+  nameWithType: macOSNative.Platform
+- uid: Catalyst.Native.macOS.macOSNative.Platform*
+  name: Platform
+  href: api/Catalyst.Native.macOS.macOSNative.html#Catalyst_Native_macOS_macOSNative_Platform_
+  commentId: Overload:Catalyst.Native.macOS.macOSNative.Platform
+  isSpec: "True"
+  fullName: Catalyst.Native.macOS.macOSNative.Platform
+  nameWithType: macOSNative.Platform
 - uid: Catalyst.Threading
   name: Catalyst.Threading
   href: api/Catalyst.Threading.html
@@ -1229,6 +1864,25 @@ references:
   commentId: F:Catalyst.Windowing.DisplayOrientation.PortraitFlipped
   fullName: Catalyst.Windowing.DisplayOrientation.PortraitFlipped
   nameWithType: DisplayOrientation.PortraitFlipped
+- uid: Catalyst.Windowing.DisplayOrientationExtensions
+  name: DisplayOrientationExtensions
+  href: api/Catalyst.Windowing.DisplayOrientationExtensions.html
+  commentId: T:Catalyst.Windowing.DisplayOrientationExtensions
+  fullName: Catalyst.Windowing.DisplayOrientationExtensions
+  nameWithType: DisplayOrientationExtensions
+- uid: Catalyst.Windowing.DisplayOrientationExtensions.ToOrientation(Catalyst.Mathematics.Geometry.Angle)
+  name: ToOrientation(Angle)
+  href: api/Catalyst.Windowing.DisplayOrientationExtensions.html#Catalyst_Windowing_DisplayOrientationExtensions_ToOrientation_Catalyst_Mathematics_Geometry_Angle_
+  commentId: M:Catalyst.Windowing.DisplayOrientationExtensions.ToOrientation(Catalyst.Mathematics.Geometry.Angle)
+  fullName: Catalyst.Windowing.DisplayOrientationExtensions.ToOrientation(Catalyst.Mathematics.Geometry.Angle)
+  nameWithType: DisplayOrientationExtensions.ToOrientation(Angle)
+- uid: Catalyst.Windowing.DisplayOrientationExtensions.ToOrientation*
+  name: ToOrientation
+  href: api/Catalyst.Windowing.DisplayOrientationExtensions.html#Catalyst_Windowing_DisplayOrientationExtensions_ToOrientation_
+  commentId: Overload:Catalyst.Windowing.DisplayOrientationExtensions.ToOrientation
+  isSpec: "True"
+  fullName: Catalyst.Windowing.DisplayOrientationExtensions.ToOrientation
+  nameWithType: DisplayOrientationExtensions.ToOrientation
 - uid: Catalyst.Windowing.Glfw3
   name: Catalyst.Windowing.Glfw3
   href: api/Catalyst.Windowing.Glfw3.html
@@ -1455,6 +2109,57 @@ references:
   isSpec: "True"
   fullName: Catalyst.Windowing.Glfw3.GlfwDisplay.Y
   nameWithType: GlfwDisplay.Y
+- uid: Catalyst.Windowing.Glfw3.Native
+  name: Catalyst.Windowing.Glfw3.Native
+  href: api/Catalyst.Windowing.Glfw3.Native.html
+  commentId: N:Catalyst.Windowing.Glfw3.Native
+  fullName: Catalyst.Windowing.Glfw3.Native
+  nameWithType: Catalyst.Windowing.Glfw3.Native
+- uid: Catalyst.Windowing.Glfw3.Native.GlfwNative
+  name: GlfwNative
+  href: api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html
+  commentId: T:Catalyst.Windowing.Glfw3.Native.GlfwNative
+  fullName: Catalyst.Windowing.Glfw3.Native.GlfwNative
+  nameWithType: GlfwNative
+- uid: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayDescriptor(Catalyst.Windowing.Glfw3.Glfw3,Silk.NET.GLFW.Monitor*)
+  name: GetDisplayDescriptor(Glfw3, Monitor*)
+  href: api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html#Catalyst_Windowing_Glfw3_Native_GlfwNative_GetDisplayDescriptor_Catalyst_Windowing_Glfw3_Glfw3_Silk_NET_GLFW_Monitor__
+  commentId: M:Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayDescriptor(Catalyst.Windowing.Glfw3.Glfw3,Silk.NET.GLFW.Monitor*)
+  fullName: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayDescriptor(Catalyst.Windowing.Glfw3.Glfw3, Silk.NET.GLFW.Monitor*)
+  nameWithType: GlfwNative.GetDisplayDescriptor(Glfw3, Monitor*)
+- uid: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayDescriptor*
+  name: GetDisplayDescriptor
+  href: api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html#Catalyst_Windowing_Glfw3_Native_GlfwNative_GetDisplayDescriptor_
+  commentId: Overload:Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayDescriptor
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayDescriptor
+  nameWithType: GlfwNative.GetDisplayDescriptor
+- uid: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayManufacturer(Catalyst.Windowing.Glfw3.Glfw3,Silk.NET.GLFW.Monitor*)
+  name: GetDisplayManufacturer(Glfw3, Monitor*)
+  href: api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html#Catalyst_Windowing_Glfw3_Native_GlfwNative_GetDisplayManufacturer_Catalyst_Windowing_Glfw3_Glfw3_Silk_NET_GLFW_Monitor__
+  commentId: M:Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayManufacturer(Catalyst.Windowing.Glfw3.Glfw3,Silk.NET.GLFW.Monitor*)
+  fullName: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayManufacturer(Catalyst.Windowing.Glfw3.Glfw3, Silk.NET.GLFW.Monitor*)
+  nameWithType: GlfwNative.GetDisplayManufacturer(Glfw3, Monitor*)
+- uid: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayManufacturer*
+  name: GetDisplayManufacturer
+  href: api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html#Catalyst_Windowing_Glfw3_Native_GlfwNative_GetDisplayManufacturer_
+  commentId: Overload:Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayManufacturer
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayManufacturer
+  nameWithType: GlfwNative.GetDisplayManufacturer
+- uid: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayRotation(Catalyst.Windowing.Glfw3.Glfw3,Silk.NET.GLFW.Monitor*)
+  name: GetDisplayRotation(Glfw3, Monitor*)
+  href: api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html#Catalyst_Windowing_Glfw3_Native_GlfwNative_GetDisplayRotation_Catalyst_Windowing_Glfw3_Glfw3_Silk_NET_GLFW_Monitor__
+  commentId: M:Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayRotation(Catalyst.Windowing.Glfw3.Glfw3,Silk.NET.GLFW.Monitor*)
+  fullName: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayRotation(Catalyst.Windowing.Glfw3.Glfw3, Silk.NET.GLFW.Monitor*)
+  nameWithType: GlfwNative.GetDisplayRotation(Glfw3, Monitor*)
+- uid: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayRotation*
+  name: GetDisplayRotation
+  href: api/Catalyst.Windowing.Glfw3.Native.GlfwNative.html#Catalyst_Windowing_Glfw3_Native_GlfwNative_GetDisplayRotation_
+  commentId: Overload:Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayRotation
+  isSpec: "True"
+  fullName: Catalyst.Windowing.Glfw3.Native.GlfwNative.GetDisplayRotation
+  nameWithType: GlfwNative.GetDisplayRotation
 - uid: Catalyst.Windowing.IDisplay
   name: IDisplay
   href: api/Catalyst.Windowing.IDisplay.html
